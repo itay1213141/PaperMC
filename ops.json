@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "24cbe2fb-02b0-4a1a-b44c-824944fd4e34",
+    "name": "Jabanes",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "7e55246a-0354-4d2b-8224-0147210bf642",
+    "name": "Homruh",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6117f24b-2757-46ab-b4cf-5addf9dde8f3",
+    "name": "LegenderyBeast",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3cb2877b-ed51-4f2c-858f-3dd00c6f6ed9",
+    "name": "Kocus",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
