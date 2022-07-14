@@ -1,479 +1,67 @@
-[14:03:35] [ServerMain/INFO]: Building unoptimized datafixer
-[14:03:36] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:03:36] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[14:03:38] [ServerMain/INFO]: Loaded 7 recipes
-[14:03:40] [Server thread/INFO]: Starting minecraft server version 1.19
-[14:03:40] [Server thread/INFO]: Loading properties
-[14:03:40] [Server thread/INFO]: This server is running Paper version git-Paper-58 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: e294802)
-[14:03:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:03:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:03:40] [Server thread/INFO]: Default game type: SURVIVAL
-[14:03:40] [Server thread/INFO]: Generating keypair
-[14:03:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:03:40] [Server thread/INFO]: Using default channel type
-[14:03:40] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[14:03:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[14:03:41] [Server thread/INFO]: Preparing level "world"
-[14:04:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:04:13] [Server thread/INFO]: Time elapsed: 1323 ms
-[14:04:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:04:14] [Server thread/INFO]: Time elapsed: 865 ms
-[14:04:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:04:15] [Server thread/INFO]: Time elapsed: 1026 ms
-[14:04:15] [Server thread/INFO]: Running delayed init tasks
-[14:04:15] [Server thread/INFO]: Done (35.920s)! For help, type "help"
-[14:04:15] [Server thread/INFO]: Timings Reset
-[14:07:06] [User Authenticator #1/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
-[14:07:08] [Server thread/INFO]: LegenderyBeast joined the game
-[14:07:08] [Server thread/INFO]: LegenderyBeast[/127.0.0.1:56537] logged in with entity id 426 at ([world]190.5, 70.0, -24.5)
-[14:07:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5040ms or 100 ticks behind
-[14:08:57] [Server thread/INFO]: LegenderyBeast has made the advancement [Stone Age]
-[14:09:23] [Server thread/INFO]: LegenderyBeast has made the advancement [Getting an Upgrade]
-[14:13:07] [User Authenticator #2/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
-[14:13:07] [Server thread/INFO]: Jabanes joined the game
-[14:13:07] [Server thread/INFO]: Jabanes[/192.168.1.118:49893] logged in with entity id 3014 at ([world]197.5, 71.0, -7.5)
-[14:13:41] [Server thread/INFO]: Made Jabanes a server operator
-[14:13:45] [Server thread/INFO]: Made LegenderyBeast a server operator
-[14:13:53] [Server thread/INFO]: LegenderyBeast issued server command: /tp Jabanes LegenderyBeast
-[14:13:53] [Server thread/INFO]: [LegenderyBeast: Teleported Jabanes to LegenderyBeast]
-[14:14:30] [Server thread/INFO]: Jabanes has made the advancement [Stone Age]
-[14:14:36] [Server thread/INFO]: Jabanes has made the advancement [Getting an Upgrade]
-[14:16:57] [Server thread/INFO]: Jabanes has made the advancement [Monster Hunter]
-[14:18:37] [Server thread/INFO]: LegenderyBeast has made the advancement [Monster Hunter]
-[14:19:25] [Server thread/INFO]: Jabanes was killed by Witch using magic
-[14:20:16] [User Authenticator #3/INFO]: UUID of player Homruh is 7e55246a-0354-4d2b-8224-0147210bf642
-[14:20:16] [Server thread/INFO]: Homruh joined the game
-[14:20:16] [Server thread/INFO]: Homruh[/77.137.75.26:33042] logged in with entity id 6054 at ([world]197.5, 83.0, -23.5)
-[14:20:33] [Server thread/INFO]: LegenderyBeast issued server command: /tp @a LegenderyBeast
-[14:20:33] [Server thread/INFO]: [LegenderyBeast: Teleported 3 entities to LegenderyBeast]
-[14:20:33] [Async Chat Thread - #0/INFO]: <Homruh> Jabanes
-[14:20:43] [User Authenticator #3/INFO]: UUID of player Tz16 is ec14eda4-65cb-44ac-a3fe-450eb156f710
-[14:20:43] [Server thread/INFO]: Tz16 joined the game
-[14:20:43] [Server thread/INFO]: Tz16[/77.137.75.137:1581] logged in with entity id 6436 at ([world]197.5, 74.0, -14.5)
-[14:21:32] [Server thread/INFO]: Villager EntityVillager['Villager'/6568, uuid='8bf0a74a-deff-4aa1-8956-4b9e92d706d3', l='ServerLevel[world]', x=583.70, y=67.00, z=-846.10, cpos=[36, -53], tl=695, v=true] died, message: 'Villager suffocated in a wall'
-[14:23:00] [Server thread/INFO]: Homruh has made the advancement [Monster Hunter]
-[14:23:23] [Server thread/INFO]: Tz16 has made the advancement [Monster Hunter]
-[14:23:24] [Server thread/INFO]: LegenderyBeast issued server command: /op Homruh
-[14:23:24] [Server thread/INFO]: [LegenderyBeast: Made Homruh a server operator]
-[14:23:28] [Server thread/INFO]: Homruh issued server command: /tp Tz16
-[14:23:28] [Server thread/INFO]: [Homruh: Teleported Homruh to Tz16]
-[14:23:28] [Server thread/WARN]: Homruh moved too quickly! -340.69341596564044,-25.0,506.2635525421661
-[14:23:50] [Server thread/INFO]: LegenderyBeast was shot by Stray
-[14:23:52] [Server thread/INFO]: Jabanes has made the advancement [Sweet Dreams]
-[14:23:55] [Server thread/INFO]: LegenderyBeast issued server command: /tp Jabanes
-[14:23:55] [Server thread/INFO]: [LegenderyBeast: Teleported LegenderyBeast to Jabanes]
-[14:23:55] [Server thread/WARN]: LegenderyBeast moved too quickly! 407.59209526750135,-2.0,-836.5548821786826
-[14:23:55] [Server thread/WARN]: LegenderyBeast moved too quickly! 407.59209526750135,-2.0,-836.5548821786826
-[14:24:00] [Server thread/INFO]: Tz16 has made the advancement [Stone Age]
-[14:24:03] [Server thread/INFO]: Homruh was shot by Skeleton
-[14:24:52] [Server thread/INFO]: Homruh has made the advancement [Stone Age]
-[14:25:08] [Server thread/INFO]: LegenderyBeast has made the advancement [Acquire Hardware]
-[14:25:20] [Server thread/INFO]: Tz16 has made the advancement [Getting an Upgrade]
-[14:26:52] [Server thread/INFO]: Homruh issued server command: /tp Tz16
-[14:26:52] [Server thread/INFO]: [Homruh: Teleported Homruh to Tz16]
-[14:26:53] [Server thread/WARN]: Homruh moved too quickly! 48.192620859161934,-20.0,-60.47047523441052
-[14:28:00] [Server thread/INFO]: Jabanes issued server command: /tp LegenderyBeast
-[14:28:00] [Server thread/INFO]: [Jabanes: Teleported Jabanes to LegenderyBeast]
-[14:28:09] [Server thread/INFO]: Homruh drowned
-[14:28:14] [Server thread/INFO]: Homruh issued server command: /tp Tz16
-[14:28:14] [Server thread/INFO]: [Homruh: Teleported Homruh to Tz16]
-[14:28:14] [Server thread/WARN]: Homruh moved too quickly! 86.06466366487729,-23.0,-19.9933720009383
-[14:28:30] [Server thread/INFO]: Jabanes issued server command: /tp LegenderyBeast
-[14:28:30] [Server thread/INFO]: [Jabanes: Teleported Jabanes to LegenderyBeast]
-[14:28:30] [Server thread/WARN]: Jabanes moved too quickly! -1.942202352944264,1.2491870787446828,-42.89277082388912
-[14:28:38] [Server thread/INFO]: LegenderyBeast issued server command: /save
-[14:28:42] [Server thread/INFO]: LegenderyBeast issued server command: /save-all
-[14:28:43] [Server thread/INFO]: [LegenderyBeast: Saved the game]
-[14:28:46] [Server thread/INFO]: LegenderyBeast issued server command: /save-all
-[14:28:46] [Server thread/INFO]: [LegenderyBeast: Saved the game]
-[14:29:03] [Server thread/INFO]: Jabanes issued server command: /tp LegenderyBeast
-[14:29:03] [Server thread/INFO]: [Jabanes: Teleported Jabanes to LegenderyBeast]
-[14:29:03] [Server thread/WARN]: Jabanes moved too quickly! 32.10121965091878,2.495200877005928,-86.02028601753841
-[14:29:45] [Server thread/INFO]: LegenderyBeast issued server command: /scoreboard objectives add Deaths deathCount
-[14:29:45] [Server thread/INFO]: [LegenderyBeast: Created new objective [Deaths]]
-[14:29:49] [Server thread/INFO]: Homruh issued server command: /scoreboard players add @a Deaths
-[14:29:50] [Server thread/INFO]: LegenderyBeast issued server command: /scoreboard objectives setdisplay list Deaths
-[14:29:50] [Server thread/INFO]: [LegenderyBeast: Set display slot list to show objective Deaths]
-[14:31:03] [Server thread/INFO]: LegenderyBeast lost connection: Disconnected
-[14:31:03] [Server thread/INFO]: LegenderyBeast left the game
-[14:31:05] [User Authenticator #4/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
-[14:31:05] [Server thread/INFO]: LegenderyBeast joined the game
-[14:31:05] [Server thread/INFO]: LegenderyBeast[/127.0.0.1:52897] logged in with entity id 13350 at ([world]655.9760101124116, 71.0, -1617.6273172588333)
-[14:31:49] [Server thread/INFO]: Jabanes issued server command: /tp LegenderyBeast
-[14:31:49] [Server thread/INFO]: [Jabanes: Teleported Jabanes to LegenderyBeast]
-[14:31:49] [Server thread/WARN]: Jabanes moved too quickly! -262.82979535311813,8.0,-21.167004107126104
-[14:32:25] [Server thread/INFO]: Jabanes has made the advancement [Suit Up]
-[14:32:26] [Server thread/INFO]: Jabanes has made the advancement [Acquire Hardware]
-[14:32:46] [Server thread/INFO]: Villager EntityVillager['Nitwit'/12951, uuid='8bf53787-a70c-4fef-9574-419a31aef513', l='ServerLevel[world]', x=596.21, y=63.02, z=-1593.78, cpos=[37, -100], tl=2363, v=true] died, message: 'Nitwit tried to swim in lava'
-[14:33:04] [Server thread/INFO]: Tz16 issued server command: /tp homruh
-[14:33:59] [Server thread/INFO]: LegenderyBeast has made the advancement [Suit Up]
-[14:34:07] [Server thread/INFO]: LegenderyBeast has made the advancement [Diamonds!]
-[14:34:15] [Server thread/INFO]: Jabanes issued server command: /tp LegenderyBeast
-[14:34:15] [Server thread/INFO]: [Jabanes: Teleported Jabanes to LegenderyBeast]
-[14:35:15] [Server thread/INFO]: Homruh issued server command: /seed
-[14:35:19] [Server thread/INFO]: Homruh lost connection: Disconnected
-[14:35:19] [Server thread/INFO]: Homruh left the game
-[14:35:56] [Server thread/INFO]: Tz16 drowned
-[14:36:21] [Server thread/INFO]: LegenderyBeast has made the advancement [Sweet Dreams]
-[14:36:24] [Server thread/INFO]: Tz16 lost connection: Disconnected
-[14:36:24] [Server thread/INFO]: Tz16 left the game
-[14:36:38] [User Authenticator #5/INFO]: UUID of player Tz16 is ec14eda4-65cb-44ac-a3fe-450eb156f710
-[14:36:38] [Server thread/INFO]: Tz16 joined the game
-[14:36:38] [Server thread/INFO]: Tz16[/77.137.75.137:1562] logged in with entity id 18504 at ([world]193.31904088080708, 63.0, -132.3189122571694)
-[14:38:51] [Server thread/INFO]: Tz16 issued server command: /tp jabanes
-[14:39:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@1b421188[id=<null>,name=Homruh,properties={},legacy=false] (/77.137.75.26:33048) lost connection: Timed out
-[14:40:00] [User Authenticator #6/INFO]: UUID of player Homruh is 7e55246a-0354-4d2b-8224-0147210bf642
-[14:40:00] [Server thread/INFO]: Homruh joined the game
-[14:40:00] [Server thread/INFO]: Homruh[/77.137.75.26:33044] logged in with entity id 21443 at ([world]227.65735013718395, 72.0, -913.2143279809861)
-[14:40:18] [Server thread/INFO]: Homruh issued server command: /tp jaban
-[14:40:20] [Server thread/INFO]: Homruh issued server command: /tp Jabanes
-[14:40:20] [Server thread/INFO]: [Homruh: Teleported Homruh to Jabanes]
-[14:40:23] [Server thread/INFO]: Homruh issued server command: /tp Tz16 homruh
-[14:40:23] [Server thread/INFO]: [Homruh: Teleported Tz16 to Homruh]
-[14:43:41] [Server thread/INFO]: Homruh has made the advancement [Getting an Upgrade]
-[14:45:26] [Server thread/INFO]: Homruh issued server command: /tp Tz16 homruh
-[14:45:26] [Server thread/INFO]: [Homruh: Teleported Tz16 to Homruh]
-[14:45:26] [Server thread/WARN]: Tz16 moved too quickly! -49.60272788703924,23.0,-21.40500865804347
-[14:45:28] [Server thread/INFO]: LegenderyBeast issued server command: /save-all
-[14:45:29] [Server thread/INFO]: [LegenderyBeast: Saved the game]
-[14:47:21] [Server thread/WARN]: LegenderyBeast moved too quickly! -7.953589680943878,-0.5061351021062137,6.566519349264581
-[14:47:48] [Async Chat Thread - #1/INFO]: <LegenderyBeast> am sleeping
-[14:47:51] [Server thread/INFO]: Homruh lost connection: Disconnected
-[14:47:51] [Server thread/INFO]: Homruh left the game
-[14:47:51] [Server thread/INFO]: Tz16 lost connection: Disconnected
-[14:47:51] [Server thread/INFO]: Tz16 left the game
-[14:47:52] [Server thread/INFO]: Jabanes lost connection: Disconnected
-[14:47:52] [Server thread/INFO]: Jabanes left the game
-[14:47:58] [User Authenticator #7/INFO]: UUID of player Tz16 is ec14eda4-65cb-44ac-a3fe-450eb156f710
-[14:47:58] [Server thread/INFO]: Tz16 joined the game
-[14:47:58] [Server thread/INFO]: Tz16[/77.137.75.137:1557] logged in with entity id 26822 at ([world]447.75642918603614, 94.0, -1947.5674513578363)
-[14:48:02] [User Authenticator #7/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
-[14:48:03] [Server thread/INFO]: Jabanes joined the game
-[14:48:03] [Server thread/INFO]: Jabanes[/192.168.1.118:50079] logged in with entity id 26864 at ([world]648.6999999880791, 90.0, -2101.4023223528156)
-[14:48:03] [User Authenticator #7/INFO]: UUID of player Homruh is 7e55246a-0354-4d2b-8224-0147210bf642
-[14:48:03] [Server thread/INFO]: Homruh joined the game
-[14:48:03] [Server thread/INFO]: Homruh[/77.137.75.26:33044] logged in with entity id 27020 at ([world]466.30000001192093, 100.0, -1967.699999988079)
-[14:49:31] [Server thread/INFO]: Homruh issued server command: /spawnpoint
-[14:49:31] [Server thread/INFO]: [Homruh: Set spawn point to 466, 89, -1936 [0.0] in minecraft:overworld for Homruh]
-[14:49:41] [Server thread/INFO]: LegenderyBeast issued server command: /plugins
-[14:50:46] [Server thread/INFO]: LegenderyBeast has made the advancement [What a Deal!]
-[14:53:46] [Server thread/INFO]: Homruh has made the advancement [A Seedy Place]
-[15:00:13] [Server thread/INFO]: Homruh lost connection: Disconnected
-[15:00:13] [Server thread/INFO]: Homruh left the game
-[15:01:30] [Server thread/INFO]: Tz16 has made the advancement [Acquire Hardware]
-[15:01:52] [Server thread/INFO]: Tz16 has made the advancement [Isn't It Iron Pick]
-[15:02:25] [Server thread/INFO]: Tz16 has made the advancement [Diamonds!]
-[15:05:23] [Server thread/INFO]: Tz16 lost connection: Disconnected
-[15:05:23] [Server thread/INFO]: Tz16 left the game
-[15:05:31] [User Authenticator #8/INFO]: UUID of player Tz16 is ec14eda4-65cb-44ac-a3fe-450eb156f710
-[15:05:31] [Server thread/INFO]: Tz16 joined the game
-[15:05:31] [Server thread/INFO]: Tz16[/77.137.75.137:1557] logged in with entity id 35937 at ([world]460.0982641199059, 78.0, -1896.699999988079)
-[15:12:22] [Server thread/INFO]: Tz16 has made the advancement [Suit Up]
-[15:12:49] [Server thread/INFO]: Tz16 lost connection: Disconnected
-[15:12:49] [Server thread/INFO]: Tz16 left the game
-[15:14:01] [Server thread/WARN]: Jabanes moved too quickly! -2.750809425584748,-0.5069481405390945,-9.704315162302464
-[15:15:06] [User Authenticator #9/INFO]: UUID of player Kocus is 3cb2877b-ed51-4f2c-858f-3dd00c6f6ed9
-[15:15:06] [Server thread/INFO]: Kocus joined the game
-[15:15:06] [Server thread/INFO]: Kocus[/8.19.8.15:54938] logged in with entity id 41722 at ([world]190.5, 73.0, -16.5)
-[15:15:29] [Server thread/INFO]: Jabanes issued server command: /tp Kocus Jabanes
-[15:15:29] [Server thread/INFO]: [Jabanes: Teleported Kocus to Jabanes]
-[15:16:03] [Server thread/INFO]: Kocus has made the advancement [Stone Age]
-[15:16:22] [Server thread/INFO]: Kocus has made the advancement [Getting an Upgrade]
-[15:16:44] [Server thread/INFO]: Jabanes issued server command: /tp 634 -2114
-[15:16:57] [Server thread/INFO]: Jabanes issued server command: /tp 634 112 -2114
-[15:16:57] [Server thread/INFO]: [Jabanes: Teleported Jabanes to 634.500000, 112.000000, -2113.500000]
-[15:16:57] [Server thread/WARN]: Jabanes moved too quickly! -438.73427512823514,-8.0,423.8779668061702
-[15:19:01] [Server thread/INFO]: Kocus has made the advancement [Monster Hunter]
-[15:19:08] [Server thread/INFO]: Kocus lost connection: Disconnected
-[15:19:08] [Server thread/INFO]: Kocus left the game
-[15:19:26] [Server thread/INFO]: com.mojang.authlib.GameProfile@7f308455[id=<null>,name=Kocus,properties={},legacy=false] (/8.19.8.15:55067) lost connection: Disconnected
-[15:19:28] [User Authenticator #10/INFO]: UUID of player Kocus is 3cb2877b-ed51-4f2c-858f-3dd00c6f6ed9
-[15:19:29] [Server thread/INFO]: Kocus joined the game
-[15:19:29] [Server thread/INFO]: Kocus[/8.19.8.15:55076] logged in with entity id 43619 at ([world]1068.9019090652655, 119.0, -2536.699999988079)
-[15:20:29] [Server thread/INFO]: Kocus lost connection: Disconnected
-[15:20:29] [Server thread/INFO]: Kocus left the game
-[15:20:32] [Server thread/INFO]: Jabanes issued server command: /tp leg
-[15:20:35] [Server thread/INFO]: Jabanes issued server command: /tp leg
-[15:20:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10542ms or 210 ticks behind
-[15:20:50] [Server thread/INFO]: Jabanes issued server command: /tp LegenderyBeast
-[15:20:50] [Server thread/INFO]: [Jabanes: Teleported Jabanes to LegenderyBeast]
-[15:20:50] [Server thread/INFO]: Jabanes issued server command: /tp LegenderyBeast
-[15:20:50] [Server thread/INFO]: [Jabanes: Teleported Jabanes to LegenderyBeast]
-[15:20:50] [Server thread/INFO]: Jabanes issued server command: /tp LegenderyBeast
-[15:20:50] [Server thread/INFO]: [Jabanes: Teleported Jabanes to LegenderyBeast]
-[15:20:50] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-58 (MC: 1.19) ---
-[15:20:50] [Paper Watchdog Thread/ERROR]: The server has not responded for 0 seconds! Creating thread dump
-[15:20:50] [Paper Watchdog Thread/ERROR]: ------------------------------
-[15:20:50] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[15:20:50] [Server thread/WARN]: LegenderyBeast moved too quickly! 6.924960240744838,0.16779664663324922,-27.473858532675877
-[15:20:50] [Paper Watchdog Thread/ERROR]: ------------------------------
-[15:20:50] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[15:20:50] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
-[15:20:50] [Paper Watchdog Thread/ERROR]: 	Stack:
-[15:20:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.tickChunks(ServerChunkCache.java:1081)
-[15:20:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:908)
-[15:20:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:647)
-[15:20:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1551)
-[15:20:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
-[15:20:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1414)
-[15:20:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1187)
-[15:20:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
-[15:20:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4326/0x00000008014f7000.run(Unknown Source)
-[15:20:50] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
-[15:20:50] [Paper Watchdog Thread/ERROR]: ------------------------------
-[15:20:50] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[15:20:50] [Paper Watchdog Thread/ERROR]: ------------------------------
-[15:20:51] [User Authenticator #11/INFO]: UUID of player Kocus is 3cb2877b-ed51-4f2c-858f-3dd00c6f6ed9
-[15:20:51] [Server thread/INFO]: Kocus joined the game
-[15:20:51] [Server thread/INFO]: Kocus[/8.19.8.15:55119] logged in with entity id 44388 at ([world]1008.1083432064686, 120.0, -2583.8420960356552)
-[15:22:21] [Server thread/INFO]: LegenderyBeast issued server command: /save-all
-[15:22:23] [Server thread/INFO]: [LegenderyBeast: Saved the game]
-[15:27:37] [Server thread/INFO]: LegenderyBeast has made the advancement [Isn't It Iron Pick]
-[15:30:33] [Server thread/INFO]: Kocus issued server command: /tp jabanes
-[15:30:54] [Server thread/INFO]: Jabanes issued server command: /tp Kocus Jabanes
-[15:30:54] [Server thread/INFO]: [Jabanes: Teleported Kocus to Jabanes]
-[15:31:06] [Server thread/INFO]: Jabanes issued server command: /tp 634 112 -2114
-[15:31:06] [Server thread/INFO]: [Jabanes: Teleported Jabanes to 634.500000, 112.000000, -2113.500000]
-[15:31:17] [Server thread/INFO]: LegenderyBeast issued server command: /op Kocus
-[15:31:17] [Server thread/INFO]: [LegenderyBeast: Made Kocus a server operator]
-[15:31:43] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[15:31:43] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[15:31:43] [Server thread/WARN]: Jabanes moved too quickly! -321.22381001088564,-43.0,-823.7876196755292
-[15:32:33] [Server thread/INFO]: Jabanes has made the advancement [Isn't It Iron Pick]
-[15:33:52] [Server thread/INFO]: Kocus has made the advancement [Acquire Hardware]
-[15:34:27] [Server thread/INFO]: Kocus has made the advancement [Sweet Dreams]
-[15:35:56] [Server thread/INFO]: Jabanes issued server command: /tp 634 112 -2114
-[15:35:56] [Server thread/INFO]: [Jabanes: Teleported Jabanes to 634.500000, 112.000000, -2113.500000]
-[15:35:56] [Server thread/WARN]: Jabanes moved too quickly! 252.40538529683215,43.0,781.3077655337465
-[15:36:08] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[15:36:08] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[15:36:08] [Server thread/WARN]: Jabanes moved too quickly! -293.99991084633217,-43.0,-800.4043946828606
-[15:36:35] [Server thread/INFO]: Kocus has made the advancement [The Parrots and the Bats]
-[15:37:08] [Server thread/INFO]: Jabanes issued server command: /spawnpoint set
-[15:37:10] [Server thread/INFO]: Jabanes issued server command: /spawnpoint
-[15:37:10] [Server thread/INFO]: [Jabanes: Set spawn point to 381, 69, -2896 [0.0] in minecraft:overworld for Jabanes]
-[15:37:43] [Server thread/INFO]: Jabanes lost connection: Disconnected
-[15:37:43] [Server thread/INFO]: Jabanes left the game
-[15:37:45] [Server thread/INFO]: Kocus lost connection: Disconnected
-[15:37:45] [Server thread/INFO]: Kocus left the game
-[15:37:48] [User Authenticator #12/INFO]: UUID of player Kocus is 3cb2877b-ed51-4f2c-858f-3dd00c6f6ed9
-[15:37:48] [Server thread/INFO]: Kocus joined the game
-[15:37:48] [Server thread/INFO]: Kocus[/8.19.8.15:52227] logged in with entity id 53366 at ([world]381.2530491062729, 69.0, -2894.6001593232477)
-[15:37:50] [User Authenticator #12/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
-[15:37:50] [Server thread/INFO]: Jabanes joined the game
-[15:37:50] [Server thread/INFO]: Jabanes[/192.168.1.118:61101] logged in with entity id 53405 at ([world]353.677298225901, 70.0, -2927.1542427896748)
-[15:41:07] [Server thread/INFO]: Kocus has made the advancement [Isn't It Iron Pick]
-[15:46:32] [Server thread/INFO]: Jabanes has made the advancement [A Seedy Place]
-[15:46:55] [Server thread/INFO]: Kocus has made the advancement [Best Friends Forever]
-[15:47:10] [Server thread/INFO]: Jabanes issued server command: /tp koc
-[15:47:13] [Server thread/INFO]: Jabanes issued server command: /tp kocus
-[15:47:13] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[15:47:37] [Server thread/INFO]: Jabanes has made the advancement [Not Today, Thank You]
-[15:50:51] [User Authenticator #13/INFO]: UUID of player Tz16 is ec14eda4-65cb-44ac-a3fe-450eb156f710
-[15:50:52] [Server thread/INFO]: Tz16 joined the game
-[15:50:52] [Server thread/INFO]: Tz16[/77.137.75.137:1544] logged in with entity id 61271 at ([world]450.2449226877707, 80.0, -1901.0594934898788)
-[15:51:38] [Server thread/INFO]: Kocus has made the advancement [Not Today, Thank You]
-[15:53:04] [Server thread/INFO]: Tz16 lost connection: Disconnected
-[15:53:04] [Server thread/INFO]: Tz16 left the game
-[15:53:15] [User Authenticator #14/INFO]: UUID of player Tz16 is ec14eda4-65cb-44ac-a3fe-450eb156f710
-[15:53:15] [Server thread/INFO]: Tz16 joined the game
-[15:53:15] [Server thread/INFO]: Tz16[/77.137.75.137:1542] logged in with entity id 62634 at ([world]451.877506706494, 94.0, -1945.2248133166522)
-[15:53:30] [Server thread/INFO]: Tz16 was impaled by Drowned
-[15:53:47] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[15:53:47] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[15:53:47] [Server thread/WARN]: Jabanes moved too quickly! 9.731547601318368,2.252203340253729,-181.59196540644962
-[15:57:53] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[15:57:53] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[15:57:53] [Server thread/WARN]: Jabanes moved too quickly! 46.26930244859082,1.0,-10.989473260429804
-[15:57:53] [Server thread/WARN]: Jabanes moved too quickly! 46.26930244859082,1.0,-10.989473260429804
-[15:58:39] [Server thread/INFO]: Tz16 issued server command: /kill
-[15:58:43] [Server thread/INFO]: Tz16 issued server command: /kill
-[15:59:12] [Server thread/INFO]: Tz16 was slain by Polar Bear
-[15:59:53] [Server thread/INFO]: Tz16 issued server command: /gamemode 1
-[16:03:41] [Server thread/INFO]: Jabanes issued server command: /tp Kocus Jabanes
-[16:03:41] [Server thread/INFO]: [Jabanes: Teleported Kocus to Jabanes]
-[16:06:33] [Server thread/INFO]: Tz16 has made the advancement [Sweet Dreams]
-[16:07:48] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[16:07:48] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[16:07:48] [Server thread/WARN]: Jabanes moved too quickly! -86.82978460733995,24.49520087700591,-27.880348720994334
-[16:08:37] [Server thread/INFO]: Jabanes has made the advancement [Ice Bucket Challenge]
-[16:10:23] [Server thread/INFO]: Jabanes has made the advancement [Diamonds!]
-[16:11:21] [Server thread/INFO]: Jabanes issued server command: /tp 390 69 -2895
-[16:11:21] [Server thread/INFO]: [Jabanes: Teleported Jabanes to 390.500000, 69.000000, -2894.500000]
-[16:12:12] [Server thread/INFO]: LegenderyBeast has made the advancement [Not Today, Thank You]
-[16:12:35] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[16:12:35] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[16:12:35] [Server thread/WARN]: Jabanes moved too quickly! -55.505545622452814,-101.0,-204.95225403400718
-[16:13:21] [Server thread/INFO]: Kocus has made the advancement [Diamonds!]
-[16:16:16] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[16:16:16] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[16:16:16] [Server thread/WARN]: Jabanes moved too quickly! 37.67869128968772,-3.0,41.84995484987439
-[16:16:44] [Server thread/INFO]: Jabanes issued server command: /tp 390 69 -2895
-[16:16:44] [Server thread/INFO]: [Jabanes: Teleported Jabanes to 390.500000, 69.000000, -2894.500000]
-[16:16:44] [Server thread/WARN]: Jabanes moved too quickly! -20.79660292064426,122.0,214.98988526418816
-[16:16:44] [Server thread/WARN]: Jabanes moved too quickly! -20.79660292064426,122.0,214.98988526418816
-[16:16:44] [Server thread/WARN]: Jabanes moved too quickly! -20.79660292064426,122.0,214.98988526418816
-[16:18:11] [Server thread/INFO]: Villager EntityVillager['Farmer'/83815, uuid='5bb3057b-4cea-4e33-a797-f7cfe9cd4cfa', l='ServerLevel[world]', x=613.70, y=63.38, z=-1576.70, cpos=[38, -99], tl=10362, v=true] died, message: 'Farmer burned to death'
-[16:23:39] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[16:23:39] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[16:29:42] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[16:29:42] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[16:30:44] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[16:30:44] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[16:30:44] [Server thread/WARN]: Jabanes moved too quickly! -12.57221416851445,-10.0,-2.621632510579275
-[16:33:59] [Server thread/INFO]: Jabanes has made the advancement [Take Aim]
-[16:36:42] [Server thread/INFO]: Jabanes issued server command: /tp Kocus Jabanes
-[16:36:42] [Server thread/INFO]: [Jabanes: Teleported Kocus to Jabanes]
-[16:37:38] [Server thread/INFO]: Jabanes issued server command: /tp 390 69 -2895
-[16:37:38] [Server thread/INFO]: [Jabanes: Teleported Jabanes to 390.500000, 69.000000, -2894.500000]
-[16:37:38] [Server thread/WARN]: Jabanes moved too quickly! -4.084434833050636,105.0,431.80000001192093
-[16:38:37] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[16:38:37] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[16:38:43] [Server thread/INFO]: Jabanes issued server command: /tp 390 69 -2895
-[16:38:43] [Server thread/INFO]: [Jabanes: Teleported Jabanes to 390.500000, 69.000000, -2894.500000]
-[16:39:04] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[16:39:04] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[16:39:04] [Server thread/WARN]: Jabanes moved too quickly! 24.887594747684545,-119.0,-455.80156349323215
-[16:40:11] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[16:40:11] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[16:40:11] [Server thread/WARN]: Jabanes moved too quickly! -4.916482937657008,27.0625,-34.65833201772557
-[16:43:04] [Server thread/INFO]: LegenderyBeast issued server command: /tellraw LegenderyBeast {"text": "PlanetCookie joined the game", "color": "yellow"}
-[16:43:28] [Server thread/INFO]: LegenderyBeast issued server command: /tellraw @a {"text": "PlanetCookie joined the game", "color": "yellow"}
-[16:43:52] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[16:43:52] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[16:43:52] [Server thread/WARN]: Jabanes moved too quickly! -128.7080375631997,14.676470876144272,35.63741093103681
-[16:44:25] [Server thread/INFO]: Jabanes issued server command: /tp 390 69 -2895
-[16:44:25] [Server thread/INFO]: [Jabanes: Teleported Jabanes to 390.500000, 69.000000, -2894.500000]
-[16:44:28] [Server thread/INFO]: Jabanes issued server command: /tp Kocus Jabanes
-[16:44:28] [Server thread/INFO]: [Jabanes: Teleported Kocus to Jabanes]
-[16:45:45] [Server thread/INFO]: Kocus has made the advancement [Suit Up]
-[16:46:19] [Server thread/INFO]: LegenderyBeast lost connection: Disconnected
-[16:46:19] [Server thread/INFO]: LegenderyBeast left the game
-[16:46:21] [User Authenticator #15/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
-[16:46:21] [Server thread/INFO]: LegenderyBeast joined the game
-[16:46:21] [Server thread/INFO]: LegenderyBeast[/127.0.0.1:62367] logged in with entity id 101707 at ([world]302.30000001192093, 54.0, -2541.727145949693)
-[16:47:33] [Server thread/INFO]: Tz16 has made the advancement [A Seedy Place]
-[16:48:49] [Server thread/INFO]: LegenderyBeast issued server command: /tellraw @a {"text":"LordMuttonChops joined the game", "color":"yellow"}
-[16:49:00] [Async Chat Thread - #2/INFO]: <Jabanes> LORD
-[16:49:41] [Server thread/INFO]: Tz16 has made the advancement [Hot Stuff]
-[16:50:11] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[16:50:11] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[16:50:11] [Server thread/WARN]: Jabanes moved too quickly! 143.32858810797148,25.0,-73.34198786685783
-[16:51:06] [Server thread/INFO]: Villager EntityVillager['Farmer'/103094, uuid='f12a7146-6ab5-490c-9245-c2db17eb205b', l='ServerLevel[world]', x=608.60, y=63.92, z=-1576.38, cpos=[38, -99], tl=15400, v=true] died, message: 'Farmer burned to death'
-[16:51:33] [Server thread/INFO]: Tz16 has made the advancement [Ice Bucket Challenge]
-[16:58:13] [Server thread/INFO]: Jabanes lost connection: Disconnected
-[16:58:13] [Server thread/INFO]: Jabanes left the game
-[16:58:14] [Server thread/INFO]: LegenderyBeast issued server command: /help
-[16:58:16] [Server thread/INFO]: LegenderyBeast issued server command: /kick kocus
-[16:58:16] [Server thread/INFO]: Kocus lost connection: Kicked by an operator
-[16:58:16] [Server thread/INFO]: Kocus left the game
-[16:58:16] [Server thread/INFO]: [LegenderyBeast: Kicked Kocus: Kicked by an operator]
-[16:58:17] [Server thread/INFO]: Tz16 lost connection: Disconnected
-[16:58:17] [Server thread/INFO]: Tz16 left the game
-[16:58:26] [User Authenticator #16/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
-[16:58:26] [Server thread/INFO]: Jabanes joined the game
-[16:58:26] [Server thread/INFO]: Jabanes[/192.168.1.118:62479] logged in with entity id 109407 at ([world]225.63047962451893, 72.0, -3308.9310510212376)
-[16:58:28] [Server thread/INFO]: LegenderyBeast issued server command: /help bukkit
-[16:58:32] [Server thread/INFO]: com.mojang.authlib.GameProfile@34048fb8[id=<null>,name=Tz16,properties={},legacy=false] (/77.137.75.137:1542) lost connection: Disconnected
-[16:58:35] [User Authenticator #16/INFO]: UUID of player Tz16 is ec14eda4-65cb-44ac-a3fe-450eb156f710
-[16:58:35] [Server thread/INFO]: Tz16 joined the game
-[16:58:35] [Server thread/INFO]: Tz16[/77.137.75.137:1545] logged in with entity id 109662 at ([world]461.09792767989103, 12.475877730656444, -1867.4749603978016)
-[17:05:58] [Server thread/INFO]: Jabanes lost connection: Disconnected
-[17:05:58] [Server thread/INFO]: Jabanes left the game
-[17:06:05] [User Authenticator #17/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
-[17:06:05] [Server thread/INFO]: Jabanes joined the game
-[17:06:05] [Server thread/INFO]: Jabanes[/192.168.1.118:62520] logged in with entity id 116254 at ([world]-489.84653836076563, 75.0, -3807.1292212451)
-[17:07:15] [User Authenticator #18/INFO]: UUID of player Kocus is 3cb2877b-ed51-4f2c-858f-3dd00c6f6ed9
-[17:07:15] [Server thread/INFO]: Kocus joined the game
-[17:07:15] [Server thread/INFO]: Kocus[/8.19.8.15:49573] logged in with entity id 117116 at ([world]667.3000000119209, 71.0, -3011.300000011921)
-[17:07:32] [Server thread/INFO]: Kocus issued server command: /tp Jabanes
-[17:07:32] [Server thread/INFO]: [Kocus: Teleported Kocus to Jabanes]
-[17:07:53] [Server thread/INFO]: Jabanes issued server command: /tp 380 69 -2895
-[17:07:53] [Server thread/INFO]: [Jabanes: Teleported Jabanes to 380.500000, 69.000000, -2894.500000]
-[17:07:54] [Server thread/WARN]: Jabanes moved too quickly! 1015.9715578894796,-23.0,1057.52599992147
-[17:07:54] [Server thread/WARN]: Jabanes moved too quickly! 1015.9715578894796,-23.0,1057.52599992147
-[17:08:43] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[17:08:43] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[17:08:43] [Server thread/WARN]: Jabanes moved too quickly! -998.6396050494014,26.0,-1043.9748890973133
-[17:10:07] [Server thread/INFO]: Kocus issued server command: /tp Jabanes
-[17:10:07] [Server thread/INFO]: [Kocus: Teleported Kocus to Jabanes]
-[17:11:04] [Server thread/INFO]: Kocus has made the advancement [Take Aim]
-[17:11:10] [Server thread/INFO]: Jabanes issued server command: /tp 380 69 -2895
-[17:11:10] [Server thread/INFO]: [Jabanes: Teleported Jabanes to 380.500000, 69.000000, -2894.500000]
-[17:11:10] [Server thread/WARN]: Jabanes moved too quickly! 1154.8279614505566,6.0,801.7033295490628
-[17:11:10] [Server thread/WARN]: Jabanes moved too quickly! 1154.8279614505566,6.0,801.7033295490628
-[17:12:28] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[17:12:28] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[17:12:28] [Server thread/WARN]: Jabanes moved too quickly! -1162.8496994945037,-5.57472587780277,-810.4492464264331
-[17:15:12] [Server thread/INFO]: LegenderyBeast has made the advancement [Hot Stuff]
-[17:18:02] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[17:18:02] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[17:18:02] [Server thread/WARN]: Jabanes moved too quickly! -94.40094905133657,-17.73551666090738,81.89873598415898
-[17:18:09] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[17:18:09] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[17:18:09] [Server thread/WARN]: Jabanes moved too quickly! -8.429943351582835,10.249187078744683,3.818066150779032
-[17:22:52] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[17:22:52] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[17:22:52] [Server thread/WARN]: Jabanes moved too quickly! -68.9089677960981,-6.0,143.75989121080966
-[17:22:56] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[17:22:56] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[17:22:56] [Server thread/WARN]: Jabanes moved too quickly! -34.687453045075245,-0.12129684053920187,9.51532791216232
-[17:22:59] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[17:22:59] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[17:22:59] [Server thread/WARN]: Jabanes moved too quickly! -27.813272828055176,0.0,30.991207744019448
-[17:23:15] [Server thread/INFO]: Jabanes issued server command: /tp Kocus
-[17:23:15] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[17:24:17] [Server thread/INFO]: Jabanes lost connection: Disconnected
-[17:24:17] [Server thread/INFO]: Jabanes left the game
-[17:24:19] [Server thread/INFO]: Kocus lost connection: Disconnected
-[17:24:19] [Server thread/INFO]: Kocus left the game
-[17:24:21] [User Authenticator #19/INFO]: UUID of player Kocus is 3cb2877b-ed51-4f2c-858f-3dd00c6f6ed9
-[17:24:21] [Server thread/INFO]: Kocus joined the game
-[17:24:21] [Server thread/INFO]: Kocus[/8.19.8.15:56171] logged in with entity id 132991 at ([world]-526.9483142035137, 63.0, -2399.483984801752)
-[17:24:27] [User Authenticator #19/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
-[17:24:27] [Server thread/INFO]: Jabanes joined the game
-[17:24:27] [Server thread/INFO]: Jabanes[/192.168.1.118:60036] logged in with entity id 133079 at ([world]-526.9483142035137, 59.1394689804196, -2399.483984801752)
-[17:24:34] [Server thread/INFO]: Jabanes lost connection: Disconnected
-[17:24:34] [Server thread/INFO]: Jabanes left the game
-[17:24:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ec2aaaf[id=<null>,name=Jabanes,properties={},legacy=false] (/192.168.1.118:60052) lost connection: Disconnected
-[17:24:55] [User Authenticator #19/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
-[17:24:55] [Server thread/INFO]: Jabanes joined the game
-[17:24:55] [Server thread/INFO]: Jabanes[/192.168.1.118:60065] logged in with entity id 133696 at ([world]-527.6999999880791, 59.0, -2399.300000011921)
-[17:24:59] [Server thread/INFO]: Jabanes issued server command: /tp kocus
-[17:24:59] [Server thread/INFO]: [Jabanes: Teleported Jabanes to Kocus]
-[17:24:59] [Server thread/WARN]: Jabanes moved too quickly! -212.18740664438178,4.0,-36.65653469851168
-[17:26:03] [Server thread/WARN]: Kocus moved too quickly! -6.881178429036936,1.2491870787446828,10.33470014445902
-[17:27:57] [Server thread/WARN]: Kocus moved too quickly! 13.418670619371824,-0.08609407931551516,5.363613647810325
-[17:30:20] [Server thread/INFO]: Jabanes issued server command: /tp 380 69 -2895
-[17:30:20] [Server thread/INFO]: [Jabanes: Teleported Jabanes to 380.500000, 69.000000, -2894.500000]
-[17:30:20] [Server thread/WARN]: Jabanes moved too quickly! 1124.1359431453525,6.0,-456.2559381600736
-[17:30:20] [Server thread/WARN]: Jabanes moved too quickly! 1124.1359431453525,6.0,-456.2559381600736
-[17:30:37] [Server thread/INFO]: Kocus issued server command: /tp Jabanes
-[17:30:37] [Server thread/INFO]: [Kocus: Teleported Kocus to Jabanes]
-[17:35:01] [Server thread/INFO]: Tz16 has made the advancement [Not Today, Thank You]
-[17:36:22] [Server thread/INFO]: Named entity EntitySheep['jeb'/127370, uuid='e5746236-53d0-45d9-b396-0c90ec8acd42', l='ServerLevel[world]', x=346.59, y=69.00, z=-2917.07, cpos=[21, -183], tl=87933, v=true] died: jeb was slain by Kocus
-[17:51:11] [Server thread/INFO]: Kocus lost connection: Disconnected
-[17:51:11] [Server thread/INFO]: Kocus left the game
-[17:53:31] [Server thread/INFO]: Villager EntityVillager['Farmer'/127363, uuid='c7902824-be8b-4625-b4bc-9844f533227c', l='ServerLevel[world]', x=341.91, y=68.00, z=-2898.65, cpos=[21, -182], tl=90901, v=true] died, message: 'Farmer was slain by Zombie'
-[18:02:40] [Server thread/INFO]: Jabanes lost connection: Disconnected
-[18:02:40] [Server thread/INFO]: Jabanes left the game
-[18:02:54] [Server thread/INFO]: LegenderyBeast has made the advancement [We Need to Go Deeper]
-[18:09:36] [Server thread/INFO]: Tz16 lost connection: Disconnected
-[18:09:36] [Server thread/INFO]: Tz16 left the game
-[18:12:45] [Server thread/INFO]: LegenderyBeast issued server command: /stop
-[18:12:45] [Server thread/INFO]: [LegenderyBeast: Stopping the server]
-[18:12:45] [Server thread/INFO]: Stopping server
-[18:12:45] [Server thread/INFO]: Saving players
-[18:12:45] [Server thread/INFO]: LegenderyBeast lost connection: Server closed
-[18:12:45] [Server thread/INFO]: LegenderyBeast left the game
-[18:12:45] [Server thread/INFO]: Saving worlds
-[18:12:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:12:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:12:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:12:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:12:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:12:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:12:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:12:59] [Server thread/INFO]: Flushing Chunk IO
-[18:12:59] [Server thread/INFO]: Closing Thread Pool
-[18:12:59] [Server thread/INFO]: Closing Server
+[19:18:20] [ServerMain/INFO]: Building unoptimized datafixer
+[19:18:22] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:18:26] [ServerMain/INFO]: Loaded 7 recipes
+[19:18:30] [Server thread/INFO]: Starting minecraft server version 1.19
+[19:18:30] [Server thread/INFO]: Loading properties
+[19:18:30] [Server thread/INFO]: This server is running Paper version git-Paper-58 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: e294802)
+[19:18:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:18:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:18:31] [Server thread/INFO]: Default game type: SURVIVAL
+[19:18:31] [Server thread/INFO]: Generating keypair
+[19:18:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:18:32] [Server thread/INFO]: Using default channel type
+[19:18:32] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[19:18:32] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:18:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:18:32] [Server thread/INFO]: Preparing level "world"
+[19:18:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:18:34] [Server thread/INFO]: Time elapsed: 566 ms
+[19:18:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:18:35] [Server thread/INFO]: Time elapsed: 232 ms
+[19:18:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:18:35] [Server thread/INFO]: Time elapsed: 168 ms
+[19:18:35] [Server thread/INFO]: Running delayed init tasks
+[19:18:35] [Server thread/INFO]: Done (5.229s)! For help, type "help"
+[19:18:35] [Server thread/INFO]: Timings Reset
+[19:20:44] [Server thread/INFO]: com.mojang.authlib.GameProfile@2bae8ef7[id=<null>,name=LegenderyBeast,properties={},legacy=false] (/127.0.0.1:53477) lost connection: Disconnected
+[19:20:52] [User Authenticator #1/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[19:21:05] [Server thread/INFO]: LegenderyBeast joined the game
+[19:21:06] [Server thread/INFO]: LegenderyBeast[/127.0.0.1:53487] logged in with entity id 64 at ([world]169.69975723809773, 64.875, -2466.3556170251522)
+[19:25:26] [User Authenticator #2/INFO]: UUID of player DeReach is 28cf60ff-b4c7-416c-80b0-37c3f2e6993c
+[19:25:26] [Server thread/INFO]: DeReach joined the game
+[19:25:26] [Server thread/INFO]: DeReach[/93.172.127.9:59671] logged in with entity id 1098 at ([world]199.5, 75.0, -15.5)
+[19:25:45] [Server thread/INFO]: LegenderyBeast issued server command: /tp DeReach LegenderyBeast
+[19:25:45] [Server thread/INFO]: [LegenderyBeast: Teleported DeReach to LegenderyBeast]
+[19:25:45] [Server thread/WARN]: DeReach moved too quickly! -32.1948356777778,-12.0,-2455.699426346928
+[19:28:31] [Server thread/INFO]: DeReach has made the advancement [Stone Age]
+[19:29:20] [Server thread/INFO]: DeReach has made the advancement [Getting an Upgrade]
+[19:35:23] [Server thread/INFO]: DeReach has made the advancement [Sweet Dreams]
+[19:42:41] [Async Chat Thread - #0/INFO]: <LegenderyBeast> this might take like 20 minutes
+[19:49:31] [Server thread/INFO]: Villager EntityVillager['Weaponsmith'/3478, uuid='353ec1d7-c7f4-4070-bc44-764807fc6a6a', l='ServerLevel[world]', x=377.20, y=67.00, z=-2891.70, cpos=[23, -181], tl=120408, v=true] died, message: 'Weaponsmith was slain by Zombie'
+[19:49:46] [Server thread/INFO]: LegenderyBeast lost connection: Disconnected
+[19:49:46] [Server thread/INFO]: LegenderyBeast left the game
+[19:49:50] [User Authenticator #3/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[19:49:50] [Server thread/INFO]: LegenderyBeast joined the game
+[19:49:50] [Server thread/INFO]: LegenderyBeast[/127.0.0.1:53649] logged in with entity id 12470 at ([world]-303.81697686797236, 71.0, -3567.1217851653164)
+[19:49:56] [Async Chat Thread - #1/INFO]: <LegenderyBeast> damn
+[19:49:59] [Async Chat Thread - #1/INFO]: <LegenderyBeast> can u sleep again
+[19:50:06] [Async Chat Thread - #1/INFO]: <DeReach> aight
+[19:50:34] [Server thread/INFO]: DeReach lost connection: Disconnected
+[19:50:34] [Server thread/INFO]: DeReach left the game
+[19:57:17] [Server thread/INFO]: LegenderyBeast issued server command: /stop
+[19:57:17] [Server thread/INFO]: [LegenderyBeast: Stopping the server]
+[19:57:17] [Server thread/INFO]: Stopping server
+[19:57:17] [Server thread/INFO]: Saving players
+[19:57:17] [Server thread/INFO]: LegenderyBeast lost connection: Server closed
+[19:57:17] [Server thread/INFO]: LegenderyBeast left the game
+[19:57:17] [Server thread/INFO]: Saving worlds
+[19:57:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:57:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:57:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:57:24] [Server thread/INFO]: Flushing Chunk IO
+[19:57:24] [Server thread/INFO]: Closing Thread Pool
+[19:57:24] [Server thread/INFO]: Closing Server
