@@ -297,3 +297,21 @@ java.io.IOException: Bad file descriptor
 [14:12:55 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
 [14:12:55 INFO]: LegenderyBeast joined the game
 [14:12:55 INFO]: LegenderyBeast[/87.70.176.135:50876] logged in with entity id 113023 at ([world]192.30000001192093, 65.0, -2499.699999988079)
+[14:14:47 INFO]: LegenderyBeast issued server command: /stop
+[14:14:47 INFO]: [LegenderyBeast: Stopping the server]
+[14:14:47 INFO]: Stopping server
+[14:14:47 INFO]: Saving players
+[14:14:47 INFO]: LegenderyBeast lost connection: Server closed
+[14:14:47 INFO]: LegenderyBeast left the game
+[14:14:47 INFO]: Saving worlds
+[14:14:51 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:14:56 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:14:56 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:14:56 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:14:56 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:14:56 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:14:56 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:14:56 INFO]: Flushing Chunk IO
+[14:14:56 INFO]: Closing Thread Pool
+2022-07-16 14:14:56,750 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[14:14:56 INFO]: Closing Server
