@@ -1,1 +1,295 @@
-[07:41:18] [ServerMain/INFO]: Building unoptimized datafixer
+[07:58:58] [ServerMain/INFO]: Building unoptimized datafixer
+[07:59:01] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:59:04] [ServerMain/INFO]: Loaded 7 recipes
+[07:59:07] [Server thread/INFO]: Starting minecraft server version 1.19
+[07:59:07] [Server thread/INFO]: Loading properties
+[07:59:07] [Server thread/INFO]: This server is running Paper version git-Paper-58 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: e294802)
+[07:59:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:59:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:59:08] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:107) ~[paper-1.19.jar:git-Paper-58]
+[07:59:08] [Server thread/INFO]: Default game type: SURVIVAL
+[07:59:08] [Server thread/INFO]: Generating keypair
+[07:59:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:59:08] [Server thread/INFO]: Using epoll channel type
+[07:59:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:59:08] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[07:59:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:59:08] [Server thread/INFO]: Preparing level "world"
+[07:59:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:59:29] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:29] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:29] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:29] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:29] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:30] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:30] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:31] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:31] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:32] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:32] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:33] [Server thread/INFO]: Time elapsed: 5492 ms
+[07:59:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:59:33] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:33] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:34] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:34] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:35] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:35] [Server thread/INFO]: Time elapsed: 2359 ms
+[07:59:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:59:35] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:36] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:36] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:37] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:37] [Server thread/INFO]: Preparing spawn area: 0%
+[07:59:37] [Server thread/INFO]: Time elapsed: 2277 ms
+[07:59:38] [Server thread/INFO]: Starting remote control listener
+[07:59:38] [Server thread/INFO]: Thread RCON Listener started
+[07:59:38] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[07:59:38] [Server thread/INFO]: Running delayed init tasks
+[07:59:38] [Server thread/INFO]: Done (31.076s)! For help, type "help"
+[07:59:38] [Server thread/INFO]: Timings Reset
+[07:59:42] [User Authenticator #1/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[07:59:43] [Server thread/INFO]: LegenderyBeast joined the game
+[07:59:43] [Server thread/INFO]: LegenderyBeast[/87.70.176.135:62894] logged in with entity id 64 at ([world]169.49436499237882, 63.0, -2469.3040049433293)
+[08:02:47] [Server thread/INFO]: LegenderyBeast has made the advancement [Enchanter]
+[08:40:50] [Server thread/INFO]: LegenderyBeast issued server command: /save-all
+[08:40:51] [Server thread/INFO]: [LegenderyBeast: Saved the game]
+[09:11:49] [Server thread/INFO]: LegenderyBeast has made the advancement [The Parrots and the Bats]
+[09:21:05] [User Authenticator #2/INFO]: UUID of player Tz16 is ec14eda4-65cb-44ac-a3fe-450eb156f710
+[09:21:05] [Server thread/INFO]: Tz16 joined the game
+[09:21:05] [Server thread/INFO]: Tz16[/77.137.75.137:1587] logged in with entity id 15600 at ([world]457.23842508809884, 94.0, -1944.048714912746)
+[09:23:49] [User Authenticator #3/INFO]: UUID of player PlanetCookie is 6ea60ca6-bd8f-4c08-bd61-6bca16e06b24
+[09:23:49] [Server thread/INFO]: PlanetCookie joined the game
+[09:23:49] [Server thread/INFO]: PlanetCookie[/79.178.86.240:55081] logged in with entity id 16461 at ([world]187.5, 63.0, -6.5)
+[09:25:31] [Server thread/INFO]: LegenderyBeast issued server command: /op PlanetCookie
+[09:25:31] [Server thread/INFO]: [LegenderyBeast: Made PlanetCookie a server operator]
+[09:25:43] [Server thread/INFO]: PlanetCookie issued server command: /tp tz16
+[09:25:43] [Server thread/INFO]: [PlanetCookie: Teleported PlanetCookie to Tz16]
+[09:25:53] [Server thread/INFO]: PlanetCookie has made the advancement [Sweet Dreams]
+[09:30:19] [Server thread/INFO]: PlanetCookie issued server command: /tp tz16
+[09:30:19] [Server thread/INFO]: [PlanetCookie: Teleported PlanetCookie to Tz16]
+[09:32:16] [Server thread/INFO]: PlanetCookie has made the advancement [Monster Hunter]
+[09:35:36] [Server thread/INFO]: PlanetCookie issued server command: /tp tz16
+[09:35:36] [Server thread/INFO]: [PlanetCookie: Teleported PlanetCookie to Tz16]
+[09:35:48] [Server thread/INFO]: PlanetCookie has made the advancement [Isn't It Iron Pick]
+[09:41:23] [Server thread/INFO]: PlanetCookie was shot by Skeleton
+[09:41:26] [Server thread/INFO]: PlanetCookie issued server command: /tp tz16
+[09:41:26] [Server thread/INFO]: [PlanetCookie: Teleported PlanetCookie to Tz16]
+[09:54:21] [Server thread/INFO]: LegenderyBeast has made the advancement [A Seedy Place]
+[09:54:49] [Server thread/INFO]: PlanetCookie issued server command: /tp tz16
+[09:54:49] [Server thread/INFO]: [PlanetCookie: Teleported PlanetCookie to Tz16]
+[09:55:18] [Server thread/INFO]: LegenderyBeast lost connection: Disconnected
+[09:55:18] [Server thread/INFO]: LegenderyBeast left the game
+[09:56:12] [Server thread/INFO]: PlanetCookie issued server command: /tp tz16
+[09:56:12] [Server thread/INFO]: [PlanetCookie: Teleported PlanetCookie to Tz16]
+[09:56:40] [Server thread/INFO]: PlanetCookie has made the advancement [Suit Up]
+[09:56:49] [Server thread/INFO]: PlanetCookie has made the advancement [Acquire Hardware]
+[09:58:46] [Server thread/INFO]: PlanetCookie lost connection: Disconnected
+[09:58:46] [Server thread/INFO]: PlanetCookie left the game
+[09:58:58] [Server thread/INFO]: Tz16 lost connection: Disconnected
+[09:58:58] [Server thread/INFO]: Tz16 left the game
+[10:44:10] [User Authenticator #4/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
+[10:44:10] [Server thread/INFO]: Jabanes joined the game
+[10:44:10] [Server thread/INFO]: Jabanes[/87.70.176.135:51524] logged in with entity id 30817 at ([world_nether]380.61304898327063, 70.0, -2894.3288218806583)
+[10:56:03] [Server thread/INFO]: Jabanes has made the advancement [Into Fire]
+[10:58:40] [User Authenticator #5/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[10:58:40] [Server thread/INFO]: LegenderyBeast joined the game
+[10:58:40] [Server thread/INFO]: LegenderyBeast[/87.70.176.135:55111] logged in with entity id 33342 at ([world]175.94619413135294, 67.5625, -2452.488782559604)
+[10:59:43] [User Authenticator #6/INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[10:59:43] [Server thread/INFO]: talx123 joined the game
+[10:59:43] [Server thread/INFO]: talx123[/77.137.78.38:17943] logged in with entity id 34002 at ([world]201.5, 77.0, -22.5)
+[10:59:57] [Server thread/INFO]: LegenderyBeast issued server command: /op talx123
+[10:59:57] [Server thread/INFO]: [LegenderyBeast: Made talx123 a server operator]
+[11:00:01] [Async Chat Thread - #0/INFO]: <Jabanes> hey tal
+[11:00:06] [Async Chat Thread - #0/INFO]: <talx123> hello
+[11:00:07] [Server thread/INFO]: LegenderyBeast issued server command: /tell talx123 164 -2449
+[11:00:09] [Async Chat Thread - #0/INFO]: <talx123> how are you
+[11:00:20] [Async Chat Thread - #0/INFO]: <Jabanes> baruch hashem
+[11:01:03] [Server thread/INFO]: talx123 issued server command: /tp lege
+[11:01:08] [Server thread/INFO]: talx123 issued server command: /tp LegenderyBeast
+[11:01:08] [Server thread/INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[11:03:16] [Server thread/INFO]: talx123 has made the advancement [Best Friends Forever]
+[11:06:30] [Server thread/INFO]: talx123 has made the advancement [Stone Age]
+[11:06:47] [Server thread/INFO]: talx123 has made the advancement [Monster Hunter]
+[11:07:03] [Server thread/INFO]: talx123 fell from a high place
+[11:07:07] [Server thread/INFO]: talx123 issued server command: /tp LegenderyBeast
+[11:07:07] [Server thread/INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[11:07:37] [Server thread/INFO]: talx123 has made the advancement [Getting an Upgrade]
+[11:13:44] [Async Chat Thread - #1/INFO]: <Jabanes> itay are you in hell
+[11:13:50] [Async Chat Thread - #1/INFO]: <LegenderyBeast> no
+[11:13:55] [Async Chat Thread - #1/INFO]: <talx123> mentally yes
+[11:13:55] [Server thread/INFO]: Jabanes issued server command: /tp LegenderyBeast
+[11:13:55] [Server thread/INFO]: [Jabanes: Teleported Jabanes to LegenderyBeast]
+[11:14:04] [Async Chat Thread - #1/INFO]: <Jabanes> hey
+[11:14:14] [Async Chat Thread - #1/INFO]: <Jabanes> can i have a horse
+[11:14:28] [Async Chat Thread - #1/INFO]: <Jabanes> can i take the black one
+[11:14:35] [Async Chat Thread - #1/INFO]: <LegenderyBeast> k
+[11:15:05] [Server thread/INFO]: Jabanes has made the advancement [Best Friends Forever]
+[11:15:05] [Async Chat Thread - #1/INFO]: <LegenderyBeast> do u need a saddle
+[11:15:10] [Async Chat Thread - #1/INFO]: <Jabanes> i have
+[11:15:11] [Async Chat Thread - #1/INFO]: <Jabanes> thanks
+[11:15:24] [Async Chat Thread - #1/INFO]: <Jabanes> im op
+[11:16:08] [Async Chat Thread - #1/INFO]: <Jabanes> do you have a leash
+[11:16:12] [Async Chat Thread - #1/INFO]: <LegenderyBeast> no
+[11:16:19] [Async Chat Thread - #1/INFO]: <Jabanes> okay thanks
+[11:20:57] [Server thread/INFO]: talx123 was shot by Skeleton
+[11:21:01] [Server thread/INFO]: talx123 issued server command: /tp LegenderyBeast
+[11:21:01] [Server thread/INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[11:31:32] [Server thread/INFO]: talx123 has made the advancement [Acquire Hardware]
+[11:31:44] [Server thread/INFO]: talx123 has made the advancement [Isn't It Iron Pick]
+[11:32:52] [Server thread/INFO]: talx123 drowned
+[11:32:55] [Server thread/INFO]: talx123 issued server command: /tp LegenderyBeast
+[11:32:55] [Server thread/INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[11:32:56] [Async Chat Thread - #2/INFO]: <Jabanes> lol
+[11:33:04] [Async Chat Thread - #2/INFO]: <Jabanes> noob
+[11:33:12] [Async Chat Thread - #2/INFO]: <LegenderyBeast> gam ata asita et ze
+[11:33:22] [Async Chat Thread - #2/INFO]: <talx123> :(
+[11:33:29] [Async Chat Thread - #2/INFO]: <Jabanes> aval ani lo noob
+[11:35:24] [Server thread/INFO]: talx123 drowned
+[11:35:30] [Server thread/INFO]: talx123 issued server command: /tp LegenderyBeast
+[11:35:30] [Server thread/INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[11:37:22] [Async Chat Thread - #3/INFO]: <Jabanes> sleep
+[11:37:29] [Server thread/INFO]: talx123 lost connection: Disconnected
+[11:37:29] [Server thread/INFO]: talx123 left the game
+[11:37:35] [Async Chat Thread - #3/INFO]: <Jabanes> im sleeping
+[11:38:05] [User Authenticator #7/INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[11:38:05] [Server thread/INFO]: talx123 joined the game
+[11:38:05] [Server thread/INFO]: talx123[/77.137.78.38:17950] logged in with entity id 56000 at ([world]-179.46158525185206, 63.0, -2593.5060309535916)
+[11:47:50] [Async Chat Thread - #4/INFO]: <LegenderyBeast> sleep
+[11:48:02] [Async Chat Thread - #4/INFO]: <Jabanes> wait
+[11:48:08] [Async Chat Thread - #4/INFO]: <Jabanes> its not night yet
+[11:48:12] [Server thread/INFO]: Jabanes lost connection: Disconnected
+[11:48:12] [Server thread/INFO]: Jabanes left the game
+[11:48:19] [User Authenticator #8/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
+[11:48:19] [Server thread/INFO]: Jabanes joined the game
+[11:48:19] [Server thread/INFO]: Jabanes[/87.70.176.135:51705] logged in with entity id 63207 at ([world]11.741731862537657, 63.0, -4074.826903583815)
+[11:48:23] [Async Chat Thread - #4/INFO]: <LegenderyBeast> shuv
+[11:48:24] [Server thread/INFO]: Jabanes lost connection: Disconnected
+[11:48:24] [Server thread/INFO]: Jabanes left the game
+[11:48:26] [Server thread/INFO]: talx123 has made the advancement [Sweet Dreams]
+[11:48:29] [User Authenticator #8/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
+[11:48:29] [Server thread/INFO]: Jabanes joined the game
+[11:48:29] [Server thread/INFO]: Jabanes[/87.70.176.135:51731] logged in with entity id 63254 at ([world]11.741731862537657, 63.0, -4074.826903583815)
+[11:48:34] [Server thread/INFO]: LegenderyBeast issued server command: /kick Jabanes
+[11:48:34] [Server thread/INFO]: Jabanes lost connection: Kicked by an operator
+[11:48:34] [Server thread/INFO]: Jabanes left the game
+[11:48:34] [Server thread/INFO]: [LegenderyBeast: Kicked Jabanes: Kicked by an operator]
+[11:48:40] [User Authenticator #8/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
+[11:48:40] [Server thread/INFO]: Jabanes joined the game
+[11:48:40] [Server thread/INFO]: Jabanes[/87.70.176.135:51746] logged in with entity id 63290 at ([world]11.741731862537657, 63.0, -4074.826903583815)
+[11:48:42] [Async Chat Thread - #4/INFO]: <LegenderyBeast> toda
+[11:48:47] [Async Chat Thread - #4/INFO]: <Jabanes> fuck you
+[11:50:21] [Async Chat Thread - #5/INFO]: <Jabanes> my horse dispawned
+[11:50:36] [Async Chat Thread - #5/INFO]: <Jabanes> wtf
+[11:50:40] [Async Chat Thread - #5/INFO]: <Jabanes> itay
+[11:50:43] [Async Chat Thread - #5/INFO]: <Jabanes> nvm
+[11:50:46] [Async Chat Thread - #5/INFO]: <Jabanes> found it
+[11:51:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5072ms or 101 ticks behind
+[11:57:06] [Async Chat Thread - #6/INFO]: <Jabanes> lag
+[11:57:07] [Server thread/INFO]: Jabanes lost connection: Disconnected
+[11:57:07] [Server thread/INFO]: Jabanes left the game
+[11:57:10] [User Authenticator #9/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
+[11:57:10] [Server thread/INFO]: Jabanes joined the game
+[11:57:10] [Server thread/INFO]: Jabanes[/87.70.176.135:56997] logged in with entity id 69450 at ([world]-434.9303233545569, 96.0, -4589.661183413946)
+[11:57:27] [Async Chat Thread - #6/INFO]: <Jabanes> my game is not rendering
+[11:57:30] [Server thread/INFO]: Jabanes lost connection: Disconnected
+[11:57:30] [Server thread/INFO]: Jabanes left the game
+[11:57:34] [Async Chat Thread - #6/INFO]: <talx123> noob
+[11:58:01] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@53a9d19c[id=<null>,name=Jabanes,properties={},legacy=false] (/87.70.176.135:57011): Took too long to log in
+[11:58:01] [Server thread/INFO]: com.mojang.authlib.GameProfile@53a9d19c[id=<null>,name=Jabanes,properties={},legacy=false] (/87.70.176.135:57011) lost connection: Took too long to log in
+[11:58:36] [Server thread/INFO]: com.mojang.authlib.GameProfile@676ad625[id=<null>,name=Jabanes,properties={},legacy=false] (/87.70.176.135:57018) lost connection: Disconnected
+[11:58:39] [User Authenticator #10/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
+[11:58:39] [Server thread/INFO]: Jabanes joined the game
+[11:58:39] [Server thread/INFO]: Jabanes[/87.70.176.135:57031] logged in with entity id 70066 at ([world]-472.34770108099553, 94.0, -4589.155250148315)
+[11:59:29] [Async Chat Thread - #7/INFO]: <Jabanes> what is the fastest way to harvest hay?
+[11:59:35] [Async Chat Thread - #7/INFO]: <LegenderyBeast> hoe
+[11:59:40] [Async Chat Thread - #7/INFO]: <Jabanes> thanks
+[12:00:33] [Async Chat Thread - #7/INFO]: <Jabanes> sleep?
+[12:00:44] [Async Chat Thread - #7/INFO]: <Jabanes> im sleeping
+[12:00:55] [Async Chat Thread - #7/INFO]: <Jabanes> leave
+[12:01:11] [Async Chat Thread - #7/INFO]: <Jabanes> ITAY
+[12:01:15] [Async Chat Thread - #7/INFO]: <Jabanes> SLEEP
+[12:01:22] [Async Chat Thread - #7/INFO]: <LegenderyBeast> cant
+[12:01:27] [Async Chat Thread - #7/INFO]: <Jabanes> leave then
+[12:01:57] [Async Chat Thread - #7/INFO]: <LegenderyBeast> sleep
+[12:02:06] [Server thread/INFO]: LegenderyBeast lost connection: Disconnected
+[12:02:06] [Server thread/INFO]: LegenderyBeast left the game
+[12:02:22] [Server thread/INFO]: com.mojang.authlib.GameProfile@7d63b125[id=<null>,name=LegenderyBeast,properties={},legacy=false] (/87.70.176.135:53468) lost connection: Disconnected
+[12:02:24] [User Authenticator #11/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[12:02:24] [Server thread/INFO]: LegenderyBeast joined the game
+[12:02:24] [Server thread/INFO]: LegenderyBeast[/87.70.176.135:53470] logged in with entity id 72493 at ([world]176.30000001192093, 62.9375, -2468.300000011921)
+[12:02:37] [Server thread/INFO]: Villager EntityVillager['Villager'/70697, uuid='f30c13ac-1aca-4c64-82b6-8003fb818d22', l='ServerLevel[world]', x=-479.12, y=64.00, z=-4793.94, cpos=[-30, -300], tl=3548, v=true] died, message: 'Villager was slain by Zombie'
+[12:03:00] [Server thread/INFO]: talx123 has made the advancement [A Seedy Place]
+[12:03:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5056ms or 101 ticks behind
+[12:03:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6028ms or 120 ticks behind
+[12:04:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14313ms or 286 ticks behind
+[12:05:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5717ms or 114 ticks behind
+[12:05:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5070ms or 101 ticks behind
+[12:06:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5169ms or 103 ticks behind
+[12:08:00] [Server thread/WARN]: Horse (vehicle of Jabanes) moved wrongly! 0.28603297483775175
+[12:08:00] [Server thread/WARN]: Horse (vehicle of Jabanes) moved wrongly! 0.28603297483775175
+[12:08:07] [Server thread/WARN]: Horse (vehicle of Jabanes) moved wrongly! 0.30618911171597596
+[12:08:07] [Server thread/WARN]: Horse (vehicle of Jabanes) moved wrongly! 0.30618911171597596
+[12:08:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5076ms or 101 ticks behind
+[12:09:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8006ms or 160 ticks behind
+[12:10:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5065ms or 101 ticks behind
+[12:10:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5041ms or 100 ticks behind
+[12:11:04] [Server thread/WARN]: Horse (vehicle of Jabanes) moved wrongly! 0.3222349678574903
+[12:11:04] [Server thread/WARN]: Horse (vehicle of Jabanes) moved wrongly! 0.3222349678574903
+[12:11:34] [Server thread/WARN]: Horse (vehicle of Jabanes) moved wrongly! 0.27080471214056795
+[12:11:34] [Server thread/WARN]: Horse (vehicle of Jabanes) moved wrongly! 0.27080471214056795
+[12:12:33] [Server thread/INFO]: Jabanes lost connection: Disconnected
+[12:12:33] [Server thread/INFO]: Jabanes left the game
+[12:12:35] [User Authenticator #12/INFO]: UUID of player Jabanes is 24cbe2fb-02b0-4a1a-b44c-824944fd4e34
+[12:12:35] [Server thread/INFO]: Jabanes joined the game
+[12:12:35] [Server thread/INFO]: Jabanes[/87.70.176.135:57141] logged in with entity id 81992 at ([world]605.2917029635457, 71.0, -4229.976824692834)
+[12:12:51] [Async Chat Thread - #8/INFO]: <Jabanes> going to eat
+[12:12:51] [Server thread/INFO]: Jabanes lost connection: Disconnected
+[12:12:51] [Server thread/INFO]: Jabanes left the game
+[12:32:13] [Server thread/INFO]: talx123 has made the advancement [Suit Up]
+[12:53:05] [Server thread/INFO]: talx123 issued server command: /tp LegenderyBeast
+[12:53:05] [Server thread/INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[13:05:49] [Server thread/INFO]: talx123 has made the advancement [We Need to Go Deeper]
+[13:06:31] [Server thread/INFO]: talx123 has made the advancement [A Terrible Fortress]
+[13:11:38] [Server thread/INFO]: LegenderyBeast has made the advancement [Who is Cutting Onions?]
+[13:14:06] [Server thread/INFO]: talx123 has made the advancement [Ice Bucket Challenge]
+[13:26:15] [Server thread/INFO]: talx123 issued server command: /tp LegenderyBeast
+[13:26:15] [Server thread/INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[13:27:54] [Server thread/INFO]: Villager EntityVillager['Villager'/103343, uuid='a2b3f504-d3d4-4f30-a513-890b05ca4867', l='ServerLevel[world_nether]', x=17.36, y=50.09, z=-321.25, cpos=[1, -21], tl=354143, v=true] died, message: 'Villager tried to swim in lava'
+[13:29:48] [Server thread/INFO]: talx123 issued server command: /give LegenderyBeast minecraft:acacia_pressure_plate 255
+[13:29:48] [Server thread/INFO]: [talx123: Gave 255 [Acacia Pressure Plate] to LegenderyBeast]
+[13:31:37] [Server thread/INFO]: talx123 issued server command: /give LegenderyBeast minecraft:sunflower 1
+[13:31:37] [Server thread/INFO]: [talx123: Gave 1 [Sunflower] to LegenderyBeast]
+[13:32:37] [Server thread/INFO]: LegenderyBeast issued server command: /tp talx123
+[13:32:37] [Server thread/INFO]: [LegenderyBeast: Teleported LegenderyBeast to talx123]
+[13:37:39] [Server thread/INFO]: talx123 has made the advancement [Diamonds!]
+[13:51:24] [Server thread/INFO]: talx123 has made the advancement [Sneak 100]
+[13:52:45] [Server thread/INFO]: LegenderyBeast issued server command: /tp talx123
+[13:52:45] [Server thread/INFO]: [LegenderyBeast: Teleported LegenderyBeast to talx123]
+[13:52:48] [Server thread/INFO]: LegenderyBeast has made the advancement [Sneak 100]
+[13:52:53] [Server thread/INFO]: LegenderyBeast has completed the challenge [It Spreads]
+[13:52:59] [Server thread/INFO]: talx123 has completed the challenge [It Spreads]
+[13:59:18] [Server thread/INFO]: LegenderyBeast issued server command: /save-all
+[13:59:21] [Server thread/INFO]: [LegenderyBeast: Saved the game]
+[14:00:02] [Server thread/INFO]: talx123 lost connection: Disconnected
+[14:00:02] [Server thread/INFO]: talx123 left the game
+[14:02:54] [Server thread/INFO]: LegenderyBeast lost connection: Disconnected
+[14:02:54] [Server thread/INFO]: LegenderyBeast left the game
+[14:12:55] [User Authenticator #13/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[14:12:55] [Server thread/INFO]: LegenderyBeast joined the game
+[14:12:55] [Server thread/INFO]: LegenderyBeast[/87.70.176.135:50876] logged in with entity id 113023 at ([world]192.30000001192093, 65.0, -2499.699999988079)
