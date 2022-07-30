@@ -1,82 +1,68 @@
-[14:16:52] [ServerMain/INFO]: Building unoptimized datafixer
-[14:16:55] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:16:58] [ServerMain/INFO]: Loaded 7 recipes
-[14:17:01] [Server thread/INFO]: Starting minecraft server version 1.19
-[14:17:01] [Server thread/INFO]: Loading properties
-[14:17:01] [Server thread/INFO]: This server is running Paper version git-Paper-58 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: e294802)
-[14:17:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:17:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:17:02] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
-java.io.IOException: Bad file descriptor
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:107) ~[paper-1.19.jar:git-Paper-58]
-[14:17:02] [Server thread/INFO]: Default game type: SURVIVAL
-[14:17:02] [Server thread/INFO]: Generating keypair
-[14:17:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:17:02] [Server thread/INFO]: Using epoll channel type
-[14:17:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:17:02] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[14:17:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:17:02] [Server thread/INFO]: Preparing level "world"
-[14:17:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:17:21] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:21] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:21] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:21] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:22] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:22] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:23] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:23] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:24] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:24] [Server thread/INFO]: Time elapsed: 4418 ms
-[14:17:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:17:25] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:25] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:25] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:26] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:26] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:27] [Server thread/INFO]: Time elapsed: 2206 ms
-[14:17:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:17:27] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:27] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:28] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:28] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:29] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:29] [Server thread/INFO]: Preparing spawn area: 0%
-[14:17:29] [Server thread/INFO]: Time elapsed: 2731 ms
-[14:17:29] [Server thread/INFO]: Starting remote control listener
-[14:17:29] [Server thread/INFO]: Thread RCON Listener started
-[14:17:29] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[14:17:29] [Server thread/INFO]: Running delayed init tasks
-[14:17:29] [Server thread/INFO]: Done (28.504s)! For help, type "help"
-[14:17:29] [Server thread/INFO]: Timings Reset
-[17:15:31] [User Authenticator #1/INFO]: UUID of player PlanetCookie is 6ea60ca6-bd8f-4c08-bd61-6bca16e06b24
-[17:15:32] [Server thread/INFO]: PlanetCookie joined the game
-[17:15:32] [Server thread/INFO]: PlanetCookie[/79.178.86.240:61781] logged in with entity id 63 at ([world]381.0553949264045, 69.0, -2896.6832741853545)
-[17:15:53] [Server thread/INFO]: PlanetCookie lost connection: Disconnected
-[17:15:53] [Server thread/INFO]: PlanetCookie left the game
-[21:31:39] [Server thread/INFO]: Stopping server
-[21:31:39] [Server thread/INFO]: Saving players
-[21:31:39] [Server thread/INFO]: Saving worlds
-[21:31:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:31:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:31:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:31:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:31:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:31:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:31:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:31:44] [Server thread/INFO]: Flushing Chunk IO
-[21:31:44] [Server thread/INFO]: Closing Thread Pool
-[21:31:44] [Server thread/INFO]: Closing Server
+[16:28:59] [User Authenticator #25/INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[16:29:00] [Server thread/INFO]: GH0STBLACK joined the game
+[16:29:00] [Server thread/INFO]: GH0STBLACK[/82.80.179.160:49976] logged in with entity id 305323 at ([world]341.0380310264468, 63.0, -2800.151905552702)
+[16:30:53] [Server thread/INFO]: GH0STBLACK has made the advancement [Cover Me with Diamonds]
+[16:33:32] [User Authenticator #26/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[16:33:32] [Server thread/INFO]: LegenderyBeast joined the game
+[16:33:32] [Server thread/INFO]: LegenderyBeast[/87.70.80.52:52608] logged in with entity id 306885 at ([world]188.5539419522258, 63.0, -2409.4585413273376)
+[16:47:20] [User Authenticator #27/INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[16:47:20] [Server thread/INFO]: talx123 joined the game
+[16:47:20] [Server thread/INFO]: talx123[/77.137.78.38:17983] logged in with entity id 311932 at ([world]155.13825230533894, 63.0, -2437.2174409790578)
+[16:51:12] [Server thread/INFO]: talx123 issued server command: /tp GH0STBLACK
+[16:51:12] [Server thread/INFO]: [talx123: Teleported talx123 to GH0STBLACK]
+[16:54:36] [Server thread/INFO]: Villager EntityVillager['Librarian'/315561, uuid='9c54e89a-9152-4c87-9536-a2ac3f43b479', l='ServerLevel[world_nether]', x=4.49, y=64.00, z=-383.58, cpos=[0, -24], tl=984022, v=true] died, message: 'Librarian discovered the floor was lava'
+[17:02:10] [Server thread/INFO]: GH0STBLACK has made the advancement [Sweet Dreams]
+[17:14:52] [Server thread/INFO]: talx123 was impaled by Drowned
+[17:37:16] [Server thread/INFO]: LegenderyBeast lost connection: Disconnected
+[17:37:16] [Server thread/INFO]: LegenderyBeast left the game
+[17:53:52] [Server thread/INFO]: GH0STBLACK lost connection: Disconnected
+[17:53:52] [Server thread/INFO]: GH0STBLACK left the game
+[18:01:00] [Server thread/INFO]: talx123 lost connection: Disconnected
+[18:01:00] [Server thread/INFO]: talx123 left the game
+[19:56:17] [User Authenticator #28/INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[19:56:18] [Server thread/INFO]: talx123 joined the game
+[19:56:18] [Server thread/INFO]: talx123[/77.137.78.38:17972] logged in with entity id 357873 at ([world]-168.03045144962164, 67.0, -2967.2521112404934)
+[20:01:22] [User Authenticator #29/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[20:01:23] [Server thread/INFO]: LegenderyBeast joined the game
+[20:01:23] [Server thread/INFO]: LegenderyBeast[/87.70.80.52:56764] logged in with entity id 359709 at ([world]-1065.699999988079, 69.0, -2188.6243032135308)
+[20:01:58] [Async Chat Thread - #13/INFO]: <LegenderyBeast> hi
+[20:02:05] [Async Chat Thread - #13/INFO]: <talx123> hello
+[20:02:07] [Server thread/WARN]: LegenderyBeast was kicked due to keepalive timeout!
+[20:02:08] [Server thread/INFO]: LegenderyBeast lost connection: Timed out
+[20:02:08] [Server thread/INFO]: LegenderyBeast left the game
+[20:02:22] [Server thread/INFO]: com.mojang.authlib.GameProfile@d844c51[id=<null>,name=LegenderyBeast,properties={},legacy=false] (/87.70.80.52:56776) lost connection: Disconnected
+[20:02:29] [User Authenticator #30/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[20:02:29] [Server thread/INFO]: LegenderyBeast joined the game
+[20:02:29] [Server thread/INFO]: LegenderyBeast[/87.70.80.52:56780] logged in with entity id 360768 at ([world]-1068.7233142677292, 65.0, -2191.6208760431214)
+[20:03:14] [Server thread/WARN]: LegenderyBeast was kicked due to keepalive timeout!
+[20:03:14] [Server thread/INFO]: LegenderyBeast lost connection: Timed out
+[20:03:14] [Server thread/INFO]: LegenderyBeast left the game
+[20:03:58] [User Authenticator #31/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[20:03:58] [Server thread/INFO]: LegenderyBeast joined the game
+[20:03:58] [Server thread/INFO]: LegenderyBeast[/87.70.80.52:56807] logged in with entity id 361756 at ([world]-1069.924909050617, 63.0, -2194.3360897803886)
+[20:04:43] [Server thread/WARN]: LegenderyBeast was kicked due to keepalive timeout!
+[20:04:43] [Server thread/INFO]: LegenderyBeast lost connection: Timed out
+[20:04:43] [Server thread/INFO]: LegenderyBeast left the game
+[20:07:24] [Server thread/INFO]: talx123 lost connection: Disconnected
+[20:07:24] [Server thread/INFO]: talx123 left the game
+[20:08:12] [User Authenticator #32/INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[20:08:13] [Server thread/INFO]: LegenderyBeast joined the game
+[20:08:13] [Server thread/INFO]: LegenderyBeast[/87.70.80.52:60956] logged in with entity id 363116 at ([world]-1068.3505722047923, 63.0, -2193.1575360797556)
+[20:08:17] [Async Chat Thread - #14/INFO]: <LegenderyBeast> hi
+[20:08:20] [Server thread/INFO]: LegenderyBeast issued server command: /stop
+[20:08:20] [Server thread/INFO]: [LegenderyBeast: Stopping the server]
+[20:08:20] [Server thread/INFO]: Stopping server
+[20:08:20] [Server thread/INFO]: Saving players
+[20:08:20] [Server thread/INFO]: LegenderyBeast lost connection: Server closed
+[20:08:20] [Server thread/INFO]: LegenderyBeast left the game
+[20:08:21] [Server thread/INFO]: Saving worlds
+[20:08:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:08:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:08:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:08:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:08:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:08:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:08:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:08:30] [Server thread/INFO]: Flushing Chunk IO
+[20:08:30] [Server thread/INFO]: Closing Thread Pool
+[20:08:30] [Server thread/INFO]: Closing Server

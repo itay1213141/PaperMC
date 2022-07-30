@@ -402,3 +402,1520 @@ java.io.IOException: Bad file descriptor
 [21:31:44 INFO]: Closing Thread Pool
 2022-07-16 21:31:44,101 Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
 [21:31:44 INFO]: Closing Server
+Starting org.bukkit.craftbukkit.Main
+System Info: Java 17 (OpenJDK 64-Bit Server VM 17.0.3+7-Debian-1deb11u1) Host: Linux 5.10.0-16-cloud-amd64 (amd64)
+Loading libraries, please wait...
+2022-07-19 13:42:14,554 ServerMain WARN Advanced terminal features are not available in this environment
+[13:42:19 INFO]: Building unoptimized datafixer
+[13:42:22 INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:42:25 INFO]: Loaded 7 recipes
+[13:42:28 INFO]: Starting minecraft server version 1.19
+[13:42:28 INFO]: Loading properties
+[13:42:28 INFO]: This server is running Paper version git-Paper-58 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: e294802)
+[13:42:28 INFO]: Server Ping Player Sample Count: 12
+[13:42:28 INFO]: Using 4 threads for Netty based IO
+[13:42:28 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:107) ~[paper-1.19.jar:git-Paper-58]
+[13:42:28 INFO]: Default game type: SURVIVAL
+[13:42:28 INFO]: Generating keypair
+[13:42:29 INFO]: Starting Minecraft server on *:25565
+[13:42:29 INFO]: Using epoll channel type
+[13:42:29 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:42:29 INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[13:42:29 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:42:29 INFO]: Preparing level "world"
+[13:42:48 INFO]: Preparing start region for dimension minecraft:overworld
+[13:42:49 INFO]: Preparing spawn area: 0%
+[13:42:49 INFO]: Preparing spawn area: 0%
+[13:42:49 INFO]: Preparing spawn area: 0%
+[13:42:49 INFO]: Preparing spawn area: 0%
+[13:42:50 INFO]: Preparing spawn area: 0%
+[13:42:50 INFO]: Preparing spawn area: 0%
+[13:42:51 INFO]: Preparing spawn area: 0%
+[13:42:51 INFO]: Preparing spawn area: 0%
+[13:42:52 INFO]: Preparing spawn area: 0%
+[13:42:52 INFO]: Preparing spawn area: 0%
+[13:42:52 INFO]: Time elapsed: 4563 ms
+[13:42:52 INFO]: Preparing start region for dimension minecraft:the_nether
+[13:42:53 INFO]: Preparing spawn area: 0%
+[13:42:53 INFO]: Preparing spawn area: 0%
+[13:42:53 INFO]: Preparing spawn area: 0%
+[13:42:54 INFO]: Preparing spawn area: 0%
+[13:42:54 INFO]: Preparing spawn area: 0%
+[13:42:55 INFO]: Time elapsed: 2335 ms
+[13:42:55 INFO]: Preparing start region for dimension minecraft:the_end
+[13:42:55 INFO]: Preparing spawn area: 0%
+[13:42:55 INFO]: Preparing spawn area: 0%
+[13:42:56 INFO]: Preparing spawn area: 0%
+[13:42:56 INFO]: Preparing spawn area: 0%
+[13:42:57 INFO]: Time elapsed: 1827 ms
+[13:42:57 INFO]: Starting remote control listener
+[13:42:57 INFO]: Thread RCON Listener started
+[13:42:57 INFO]: RCON running on 0.0.0.0:25575
+[13:42:57 INFO]: Running delayed init tasks
+[13:42:57 INFO]: Done (29.268s)! For help, type "help"
+[13:42:57 INFO]: Timings Reset
+[13:42:58 INFO]: com.mojang.authlib.GameProfile@da7d36c[id=<null>,name=LegenderyBeast,properties={},legacy=false] (/87.70.176.135:58144) lost connection: Disconnected
+[13:43:02 INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[13:43:03 INFO]: talx123 joined the game
+[13:43:03 INFO]: talx123[/77.137.78.38:17948] logged in with entity id 63 at ([world]-147.30610515777062, 64.0, -2565.27337943966)
+[13:43:03 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[13:43:04 INFO]: LegenderyBeast joined the game
+[13:43:04 INFO]: LegenderyBeast[/87.70.176.135:58152] logged in with entity id 71 at ([world]192.30000001192093, 65.0, -2499.699999988079)
+[13:43:16 WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
+[13:48:33 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[13:48:33 INFO]: GH0STBLACK joined the game
+[13:48:33 INFO]: GH0STBLACK[/82.80.179.160:50006] logged in with entity id 2202 at ([world]183.5, 63.0, -9.5)
+[13:48:41 INFO]: LegenderyBeast issued server command: /op GH0STBLACK
+[13:48:41 INFO]: [LegenderyBeast: Made GH0STBLACK a server operator]
+[13:48:49 INFO]: talx123 lost connection: Disconnected
+[13:48:49 INFO]: talx123 left the game
+[13:50:43 INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[13:50:44 INFO]: talx123 joined the game
+[13:50:44 INFO]: talx123[/77.137.78.38:18005] logged in with entity id 2989 at ([world]-147.75162833067816, 64.0, -2564.7887135698124)
+[13:50:51 INFO]: GH0STBLACK issued server command: /tp
+[13:51:05 INFO]: GH0STBLACK issued server command: /tp GH0STBLACK LegenderyBeast
+[13:51:05 INFO]: [GH0STBLACK: Teleported GH0STBLACK to LegenderyBeast]
+[13:51:18 INFO]: talx123 has made the advancement [Fishy Business]
+[13:54:41 INFO]: GH0STBLACK has made the advancement [Monster Hunter]
+[13:55:02 INFO]: GH0STBLACK has made the advancement [Stone Age]
+[13:55:09 INFO]: GH0STBLACK has made the advancement [Getting an Upgrade]
+[14:02:51 WARN]: Boat (vehicle of LegenderyBeast) moved wrongly! 0.33402836870442343
+[14:08:02 INFO]: GH0STBLACK has made the advancement [Acquire Hardware]
+[14:11:23 INFO]: GH0STBLACK has made the advancement [Not Today, Thank You]
+[14:25:35 INFO]: GH0STBLACK was blown up by Creeper
+[14:26:07 INFO]: GH0STBLACK issued server command: /tp GH0STBLACK LegenderyBeast
+[14:26:07 INFO]: [GH0STBLACK: Teleported GH0STBLACK to LegenderyBeast]
+[14:30:11 INFO]: GH0STBLACK has made the advancement [Isn't It Iron Pick]
+[14:36:33 INFO]: LegenderyBeast has reached the goal [Hired Help]
+[14:50:29 INFO]: talx123 has made the advancement [Not Today, Thank You]
+[14:52:35 INFO]: GH0STBLACK has made the advancement [Suit Up]
+[14:56:19 INFO]: GH0STBLACK has made the advancement [Fishy Business]
+[14:56:51 INFO]: LegenderyBeast issued server command: /tp talx123
+[14:56:51 INFO]: [LegenderyBeast: Teleported LegenderyBeast to talx123]
+[15:00:40 INFO]: talx123 lost connection: Disconnected
+[15:00:40 INFO]: talx123 left the game
+[15:04:40 INFO]: GH0STBLACK has made the advancement [We Need to Go Deeper]
+[15:11:53 INFO]: GH0STBLACK issued server command: /tp GH0STBLACK LegenderyBeast
+[15:11:53 INFO]: [GH0STBLACK: Teleported GH0STBLACK to LegenderyBeast]
+[15:18:47 INFO]: GH0STBLACK has made the advancement [Diamonds!]
+[15:19:34 INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[15:19:34 INFO]: talx123 joined the game
+[15:19:34 INFO]: talx123[/77.137.78.38:17985] logged in with entity id 41298 at ([world]403.48132869837673, 70.0, -2840.221833118998)
+[15:19:55 INFO]: talx123 issued server command: /tp LegenderyBeast
+[15:19:55 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[15:22:29 INFO]: talx123 has made the advancement [Take Aim]
+[15:26:39 INFO]: LegenderyBeast issued server command: /tp talx123
+[15:26:39 INFO]: [LegenderyBeast: Teleported LegenderyBeast to talx123]
+[15:33:13 INFO]: LegenderyBeast has made the advancement [The Cutest Predator]
+[15:34:59 INFO]: talx123 issued server command: /tp LegenderyBeast
+[15:34:59 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[15:43:54 INFO]: GH0STBLACK lost connection: Disconnected
+[15:43:54 INFO]: GH0STBLACK left the game
+[15:44:55 INFO]: talx123 issued server command: /tp GH0STBLACK
+[15:45:08 INFO]: talx123 issued server command: /tp GH0STBLACK
+[15:46:01 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[15:46:01 INFO]: GH0STBLACK joined the game
+[15:46:01 INFO]: GH0STBLACK[/82.80.179.160:52660] logged in with entity id 50235 at ([world]512.7734053614728, -41.0, -4633.699999988079)
+[15:46:13 INFO]: talx123 issued server command: /tp GH0STBLACK
+[15:46:13 INFO]: [talx123: Teleported talx123 to GH0STBLACK]
+[15:46:25 INFO]: talx123 issued server command: /tp LegenderyBeast
+[15:46:25 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[15:46:28 INFO]: GH0STBLACK lost connection: Disconnected
+[15:46:28 INFO]: GH0STBLACK left the game
+[15:51:44 INFO]: <LegenderyBeast> after me
+[15:51:49 INFO]: <talx123> yes ser
+[15:53:59 INFO]: <LegenderyBeast> come
+[15:54:06 INFO]: talx123 has completed the challenge [Return to Sender]
+[15:54:17 INFO]: <talx123> where are you
+[15:54:27 INFO]: <talx123> o
+[15:54:34 INFO]: <LegenderyBeast> portals this way
+[15:54:42 INFO]: <talx123> dig my liege
+[15:55:06 INFO]: <talx123> dig faster
+[15:55:14 INFO]: <talx123> chop chop
+[15:55:17 INFO]: <LegenderyBeast> my picks about to break
+[15:55:25 INFO]: <talx123> who
+[15:55:29 INFO]: <talx123> asked
+[15:59:47 INFO]: <talx123> Are you still on the phone?
+[15:59:50 INFO]: <LegenderyBeast> yea
+[15:59:56 INFO]: <talx123> ok
+[15:59:58 INFO]: <talx123> I got back
+[16:00:33 INFO]: LegenderyBeast lost connection: Disconnected
+[16:00:33 INFO]: LegenderyBeast left the game
+[16:01:31 INFO]: talx123 lost connection: Disconnected
+[16:01:31 INFO]: talx123 left the game
+[04:53:56 INFO]: /163.172.139.143:36522 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: readerIndex(18) + length(1) exceeds writerIndex(18): PooledUnsafeDirectByteBuf(ridx: 18, widx: 18, cap: 18)
+[19:17:49 INFO]: Thread RCON Client /87.70.176.135 started
+[19:18:28 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[19:18:28 INFO]: LegenderyBeast joined the game
+[19:18:28 INFO]: LegenderyBeast[/87.70.176.135:65304] logged in with entity id 54561 at ([world]187.7337965593608, 63.0, -2409.429362472335)
+[19:18:40 INFO]: Thread RCON Client /87.70.176.135 shutting down
+[19:30:32 INFO]: LegenderyBeast issued server command: /save-all
+[19:30:32 INFO]: [LegenderyBeast: Saved the game]
+[20:08:42 INFO]: LegenderyBeast lost connection: Disconnected
+[20:08:42 INFO]: LegenderyBeast left the game
+[10:45:54 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[10:45:54 INFO]: LegenderyBeast joined the game
+[10:45:54 INFO]: LegenderyBeast[/87.70.176.135:59233] logged in with entity id 62929 at ([world]188.69999998807907, 63.0, -2409.656841665452)
+[10:46:32 INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[10:46:32 INFO]: talx123 joined the game
+[10:46:32 INFO]: talx123[/77.137.78.38:17973] logged in with entity id 63394 at ([world]-147.43181414872436, 64.0, -2564.8865154210093)
+[10:48:33 INFO]: LegenderyBeast issued server command: /gamerule
+[10:48:42 INFO]: LegenderyBeast issued server command: /help gamerule
+[10:48:47 INFO]: LegenderyBeast issued server command: /gamerule
+[10:49:59 INFO]: LegenderyBeast issued server command: /gamerule playersSleepingPercentage 33
+[10:49:59 INFO]: [LegenderyBeast: Gamerule playersSleepingPercentage is now set to: 33]
+[10:50:07 INFO]: LegenderyBeast issued server command: /gamerule maxEntityCramming
+[11:00:01 INFO]: <talx123> -710 62 -3374
+[11:02:27 INFO]: talx123 issued server command: /tp LegenderyBeast
+[11:02:27 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[11:04:53 INFO]: talx123 issued server command: /tp LegenderyBeast
+[11:04:53 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[11:40:56 INFO]: talx123 has reached the goal [Hired Help]
+[11:52:05 INFO]: LegenderyBeast issued server command: /save-all
+[11:52:06 INFO]: [LegenderyBeast: Saved the game]
+[12:23:16 INFO]: talx123 issued server command: /tp LegenderyBeast
+[12:23:16 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[12:34:51 INFO]: talx123 burned to death
+[12:34:56 INFO]: talx123 issued server command: /tp LegenderyBeast
+[12:34:56 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[12:42:40 INFO]: talx123 issued server command: /tp LegenderyBeast
+[12:42:40 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[12:45:12 INFO]: LegenderyBeast issued server command: /tp talx123
+[12:45:12 INFO]: [LegenderyBeast: Teleported LegenderyBeast to talx123]
+[12:51:59 INFO]: LegenderyBeast issued server command: /gamerule randomTickSpeed
+[12:52:05 INFO]: LegenderyBeast issued server command: /gamerule randomTickSpeed 100
+[12:52:05 INFO]: [LegenderyBeast: Gamerule randomTickSpeed is now set to: 100]
+[12:52:08 INFO]: LegenderyBeast issued server command: /gamerule randomTickSpeed 3
+[12:52:08 INFO]: [LegenderyBeast: Gamerule randomTickSpeed is now set to: 3]
+[13:02:49 INFO]: talx123 lost connection: Disconnected
+[13:02:49 INFO]: talx123 left the game
+[14:34:13 INFO]: LegenderyBeast lost connection: Disconnected
+[14:34:13 INFO]: LegenderyBeast left the game
+[11:10:56 INFO]: com.mojang.authlib.GameProfile@3389710c[id=<null>,name=LegenderyBeast,properties={},legacy=false] (/87.70.176.135:57583) lost connection: Disconnected
+[11:10:59 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[11:10:59 INFO]: LegenderyBeast joined the game
+[11:10:59 INFO]: LegenderyBeast[/87.70.176.135:57586] logged in with entity id 122049 at ([world]188.69999998807907, 63.0, -2409.4939890957125)
+[11:17:48 INFO]: LegenderyBeast lost connection: Disconnected
+[11:17:48 INFO]: LegenderyBeast left the game
+[19:06:33 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[19:06:34 INFO]: LegenderyBeast joined the game
+[19:06:34 INFO]: LegenderyBeast[/87.70.176.135:56847] logged in with entity id 123889 at ([world]183.30547649213042, 63.0, -2409.809743216439)
+[19:09:52 INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[19:09:53 INFO]: talx123 joined the game
+[19:09:53 INFO]: talx123[/77.137.78.38:17964] logged in with entity id 124744 at ([world]181.94617551919666, 63.0, -2408.677009896421)
+[19:17:25 INFO]: talx123 has made the advancement [Enchanter]
+[19:21:56 INFO]: LegenderyBeast was burnt to a crisp whilst fighting Ghast
+[19:22:11 INFO]: talx123 issued server command: /tp LegenderyBeast
+[19:22:11 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[19:22:19 WARN]: LegenderyBeast moved too quickly! 0.7313012067094373,0.756759288177264,-10.299706365338636
+[19:29:59 INFO]: talx123 has made the advancement [Into Fire]
+[19:40:30 INFO]: talx123 issued server command: /tp LegenderyBeast
+[19:40:30 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[20:01:05 INFO]: talx123 has made the advancement [Local Brewery]
+[20:35:28 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-58 (MC: 1.19) ---
+[20:35:28 ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[20:35:28 ERROR]: ------------------------------
+[20:35:28 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:35:28 ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[20:35:28 ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[20:35:28 ERROR]: Entity UUID: 008124bf-2ad2-4495-9830-5b3088a23a9f
+[20:35:28 ERROR]: Position: world: 'world' at location (1202.028239090717, 66.0, -3231.558060375225)
+[20:35:28 ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[20:35:28 ERROR]: Entity AABB: AABB[1201.7282390787962, 66.0, -3231.858060387146] -> [1202.328239102638, 67.79999995231628, -3231.258060363304]
+[20:35:28 ERROR]: Total packets processed on the main thread for all players: 1169266
+[20:35:28 ERROR]: ------------------------------
+[20:35:28 ERROR]: Current Thread: Server thread
+[20:35:28 ERROR]: 	PID: 21 | Suspended: false | Native: false | State: TIMED_WAITING
+[20:35:28 ERROR]: 	Stack:
+[20:35:29 ERROR]: 		java.base@17.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+[20:35:29 ERROR]: 		java.base@17.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[20:35:29 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:148)
+[20:35:29 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
+[20:35:29 ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:661)
+[20:35:29 ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:504)
+[20:35:29 ERROR]: 		net.minecraft.world.level.LevelReader.getChunk(LevelReader.java:134)
+[20:35:29 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:488)
+[20:35:29 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:451)
+[20:35:29 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:380)
+[20:35:29 ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1898)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4217/0x00000008014a0ed8.apply(Unknown Source)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6049/0x0000000801baee20.accept(Unknown Source)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[20:35:29 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[20:35:29 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[20:35:29 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[20:35:29 ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1506)
+[20:35:29 ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[20:35:29 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1032)
+[20:35:29 ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:571)
+[20:35:29 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1872)
+[20:35:29 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[20:35:29 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[20:35:29 ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[20:35:29 ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$5574/0x0000000801b0cf88.run(Unknown Source)
+[20:35:29 ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:35:29 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[20:35:29 ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:35:29 ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358)
+[20:35:29 ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[20:35:29 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[20:35:29 ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335)
+[20:35:29 ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328)
+[20:35:29 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[20:35:29 ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306)
+[20:35:29 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191)
+[20:35:29 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[20:35:29 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4317/0x00000008014e26e0.run(Unknown Source)
+[20:35:29 ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[20:35:29 ERROR]: ------------------------------
+[20:35:29 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:35:29 ERROR]: ------------------------------
+[20:35:33 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-58 (MC: 1.19) ---
+[20:35:33 ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[20:35:33 ERROR]: ------------------------------
+[20:35:33 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:35:33 ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[20:35:33 ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[20:35:33 ERROR]: Entity UUID: 008124bf-2ad2-4495-9830-5b3088a23a9f
+[20:35:33 ERROR]: Position: world: 'world' at location (1202.028239090717, 66.0, -3231.558060375225)
+[20:35:33 ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[20:35:33 ERROR]: Entity AABB: AABB[1201.7282390787962, 66.0, -3231.858060387146] -> [1202.328239102638, 67.79999995231628, -3231.258060363304]
+[20:35:33 ERROR]: Total packets processed on the main thread for all players: 1169266
+[20:35:33 ERROR]: ------------------------------
+[20:35:33 ERROR]: Current Thread: Server thread
+[20:35:33 ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
+[20:35:33 ERROR]: 	Stack:
+[20:35:33 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.create(CubicSpline.java:194)
+[20:35:33 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[20:35:33 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[20:35:33 ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$4671/0x000000080166c228.apply(Unknown Source)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+[20:35:33 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[20:35:33 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[20:35:33 ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$4671/0x000000080166c228.apply(Unknown Source)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+[20:35:33 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1052)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:647)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:603)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:886)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:386)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:647)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:603)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:132)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:174)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:124)
+[20:35:33 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:906)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:99)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:92)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:84)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$7002/0x0000000801c99800.get(Unknown Source)
+[20:35:33 ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:496)
+[20:35:33 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:83)
+[20:35:33 ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:166)
+[20:35:33 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:481)
+[20:35:33 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:451)
+[20:35:33 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:380)
+[20:35:33 ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1898)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4217/0x00000008014a0ed8.apply(Unknown Source)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6049/0x0000000801baee20.accept(Unknown Source)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[20:35:33 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[20:35:33 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[20:35:33 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[20:35:33 ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1506)
+[20:35:33 ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[20:35:33 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1032)
+[20:35:33 ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:571)
+[20:35:33 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1872)
+[20:35:33 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[20:35:33 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[20:35:33 ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[20:35:33 ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$5574/0x0000000801b0cf88.run(Unknown Source)
+[20:35:33 ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:35:33 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[20:35:33 ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:35:33 ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358)
+[20:35:33 ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[20:35:33 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[20:35:33 ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335)
+[20:35:33 ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328)
+[20:35:33 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[20:35:33 ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306)
+[20:35:33 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191)
+[20:35:33 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[20:35:33 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4317/0x00000008014e26e0.run(Unknown Source)
+[20:35:33 ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[20:35:33 ERROR]: ------------------------------
+[20:35:33 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:35:33 ERROR]: ------------------------------
+[20:35:38 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-58 (MC: 1.19) ---
+[20:35:38 ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[20:35:38 ERROR]: ------------------------------
+[20:35:38 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:35:38 ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[20:35:38 ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[20:35:38 ERROR]: Entity UUID: 008124bf-2ad2-4495-9830-5b3088a23a9f
+[20:35:38 ERROR]: Position: world: 'world' at location (1202.028239090717, 66.0, -3231.558060375225)
+[20:35:38 ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[20:35:38 ERROR]: Entity AABB: AABB[1201.7282390787962, 66.0, -3231.858060387146] -> [1202.328239102638, 67.79999995231628, -3231.258060363304]
+[20:35:38 ERROR]: Total packets processed on the main thread for all players: 1169266
+[20:35:38 ERROR]: ------------------------------
+[20:35:38 ERROR]: Current Thread: Server thread
+[20:35:38 ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
+[20:35:38 ERROR]: 	Stack:
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.synth.ImprovedNoise.noise(ImprovedNoise.java:63)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.synth.BlendedNoise.compute(BlendedNoise.java:114)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:251)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.compute(DensityFunctions.java:865)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:260)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.fillArray(DensityFunctions.java:300)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.fillArray(DensityFunctions.java:846)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$TransformerWithContext.fillArray(DensityFunctions.java:1124)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$NoiseInterpolator.fillArray(NoiseChunk.java:744)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.fillSlice(NoiseChunk.java:205)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.advanceCellX(NoiseChunk.java:223)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:177)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:124)
+[20:35:38 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:906)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:99)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:92)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:84)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$7002/0x0000000801c99800.get(Unknown Source)
+[20:35:38 ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:496)
+[20:35:38 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:83)
+[20:35:38 ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:166)
+[20:35:38 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:481)
+[20:35:38 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:451)
+[20:35:38 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:380)
+[20:35:38 ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1898)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4217/0x00000008014a0ed8.apply(Unknown Source)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6049/0x0000000801baee20.accept(Unknown Source)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[20:35:38 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[20:35:38 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[20:35:38 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[20:35:38 ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1506)
+[20:35:38 ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[20:35:38 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1032)
+[20:35:38 ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:571)
+[20:35:38 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1872)
+[20:35:38 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[20:35:38 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[20:35:38 ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[20:35:38 ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$5574/0x0000000801b0cf88.run(Unknown Source)
+[20:35:38 ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:35:38 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[20:35:38 ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:35:38 ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358)
+[20:35:38 ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[20:35:38 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[20:35:38 ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335)
+[20:35:38 ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328)
+[20:35:38 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[20:35:38 ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306)
+[20:35:38 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191)
+[20:35:38 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[20:35:38 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4317/0x00000008014e26e0.run(Unknown Source)
+[20:35:38 ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[20:35:38 ERROR]: ------------------------------
+[20:35:38 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:35:38 ERROR]: ------------------------------
+[20:35:43 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-58 (MC: 1.19) ---
+[20:35:43 ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[20:35:43 ERROR]: ------------------------------
+[20:35:43 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:35:43 ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[20:35:43 ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[20:35:43 ERROR]: Entity UUID: 008124bf-2ad2-4495-9830-5b3088a23a9f
+[20:35:43 ERROR]: Position: world: 'world' at location (1202.028239090717, 66.0, -3231.558060375225)
+[20:35:43 ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[20:35:43 ERROR]: Entity AABB: AABB[1201.7282390787962, 66.0, -3231.858060387146] -> [1202.328239102638, 67.79999995231628, -3231.258060363304]
+[20:35:43 ERROR]: Total packets processed on the main thread for all players: 1169266
+[20:35:43 ERROR]: ------------------------------
+[20:35:43 ERROR]: Current Thread: Server thread
+[20:35:43 ERROR]: 	PID: 21 | Suspended: false | Native: true | State: RUNNABLE
+[20:35:43 ERROR]: 	Stack:
+[20:35:43 ERROR]: 		java.base@17.0.3/sun.nio.ch.FileDispatcherImpl.pread0(Native Method)
+[20:35:43 ERROR]: 		java.base@17.0.3/sun.nio.ch.FileDispatcherImpl.pread(FileDispatcherImpl.java:54)
+[20:35:43 ERROR]: 		java.base@17.0.3/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:328)
+[20:35:43 ERROR]: 		java.base@17.0.3/sun.nio.ch.IOUtil.read(IOUtil.java:296)
+[20:35:43 ERROR]: 		java.base@17.0.3/sun.nio.ch.IOUtil.read(IOUtil.java:273)
+[20:35:43 ERROR]: 		java.base@17.0.3/sun.nio.ch.FileChannelImpl.readInternal(FileChannelImpl.java:839)
+[20:35:43 ERROR]: 		java.base@17.0.3/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:824)
+[20:35:43 ERROR]: 		net.minecraft.world.level.chunk.storage.RegionFile.getChunkDataInputStream(RegionFile.java:604)
+[20:35:43 ERROR]: 		net.minecraft.world.level.chunk.storage.RegionFileStorage.scanChunk(RegionFileStorage.java:263)
+[20:35:43 ERROR]: 		net.minecraft.world.level.chunk.storage.ChunkStorage.lambda$chunkScanner$1(ChunkStorage.java:211)
+[20:35:43 ERROR]: 		net.minecraft.world.level.chunk.storage.IChunkLoader$$Lambda$4716/0x0000000801682f40.a(Unknown Source)
+[20:35:43 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.tryLoadFromStorage(StructureCheck.java:100)
+[20:35:43 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:77)
+[20:35:43 ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:166)
+[20:35:43 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:481)
+[20:35:43 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:451)
+[20:35:43 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:380)
+[20:35:43 ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1898)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4217/0x00000008014a0ed8.apply(Unknown Source)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6049/0x0000000801baee20.accept(Unknown Source)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[20:35:43 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[20:35:43 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[20:35:43 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[20:35:43 ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1506)
+[20:35:43 ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[20:35:43 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1032)
+[20:35:43 ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:571)
+[20:35:43 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1872)
+[20:35:43 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[20:35:43 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[20:35:43 ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[20:35:43 ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$5574/0x0000000801b0cf88.run(Unknown Source)
+[20:35:43 ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:35:43 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[20:35:43 ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:35:43 ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358)
+[20:35:43 ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[20:35:43 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[20:35:43 ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335)
+[20:35:43 ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328)
+[20:35:43 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[20:35:43 ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306)
+[20:35:43 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191)
+[20:35:43 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[20:35:43 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4317/0x00000008014e26e0.run(Unknown Source)
+[20:35:43 ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[20:35:43 ERROR]: ------------------------------
+[20:35:43 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:35:43 ERROR]: ------------------------------
+[20:35:48 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-58 (MC: 1.19) ---
+[20:35:48 ERROR]: The server has not responded for 30 seconds! Creating thread dump
+[20:35:48 ERROR]: ------------------------------
+[20:35:48 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:35:48 ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[20:35:48 ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[20:35:48 ERROR]: Entity UUID: 008124bf-2ad2-4495-9830-5b3088a23a9f
+[20:35:48 ERROR]: Position: world: 'world' at location (1202.028239090717, 66.0, -3231.558060375225)
+[20:35:48 ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[20:35:48 ERROR]: Entity AABB: AABB[1201.7282390787962, 66.0, -3231.858060387146] -> [1202.328239102638, 67.79999995231628, -3231.258060363304]
+[20:35:48 ERROR]: Total packets processed on the main thread for all players: 1169266
+[20:35:48 ERROR]: ------------------------------
+[20:35:48 ERROR]: Current Thread: Server thread
+[20:35:48 ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
+[20:35:48 ERROR]: 	Stack:
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.synth.PerlinNoise.getValue(PerlinNoise.java:144)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.synth.NormalNoise.getValue(NormalNoise.java:80)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunction$NoiseHolder.getValue(DensityFunction.java:91)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Noise.compute(DensityFunctions.java:807)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:260)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$CacheOnce.compute(NoiseChunk.java:567)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:247)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:257)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$CacheOnce.compute(NoiseChunk.java:567)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:257)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:247)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:247)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.compute(DensityFunctions.java:866)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:260)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.fillArray(DensityFunctions.java:300)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.fillArray(DensityFunctions.java:846)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$TransformerWithContext.fillArray(DensityFunctions.java:1124)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$NoiseInterpolator.fillArray(NoiseChunk.java:744)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.fillSlice(NoiseChunk.java:205)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.advanceCellX(NoiseChunk.java:223)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:177)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:124)
+[20:35:48 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:906)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:99)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:92)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:84)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$7002/0x0000000801c99800.get(Unknown Source)
+[20:35:48 ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:496)
+[20:35:48 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:83)
+[20:35:48 ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:166)
+[20:35:48 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:481)
+[20:35:48 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:451)
+[20:35:48 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:380)
+[20:35:48 ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1898)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4217/0x00000008014a0ed8.apply(Unknown Source)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6049/0x0000000801baee20.accept(Unknown Source)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[20:35:48 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[20:35:48 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[20:35:48 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[20:35:48 ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1506)
+[20:35:48 ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[20:35:48 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1032)
+[20:35:48 ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:571)
+[20:35:48 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1872)
+[20:35:48 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[20:35:48 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[20:35:48 ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[20:35:48 ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$5574/0x0000000801b0cf88.run(Unknown Source)
+[20:35:48 ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:35:48 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[20:35:48 ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:35:48 ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358)
+[20:35:48 ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[20:35:48 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[20:35:48 ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335)
+[20:35:48 ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328)
+[20:35:48 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[20:35:48 ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306)
+[20:35:48 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191)
+[20:35:48 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[20:35:48 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4317/0x00000008014e26e0.run(Unknown Source)
+[20:35:48 ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[20:35:48 ERROR]: ------------------------------
+[20:35:48 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:35:48 ERROR]: ------------------------------
+[20:35:53 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[20:35:53 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-58 (MC: 1.19) ---
+[20:35:53 ERROR]: The server has not responded for 35 seconds! Creating thread dump
+[20:35:53 ERROR]: ------------------------------
+[20:35:53 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:35:53 ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[20:35:53 ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[20:35:53 ERROR]: Entity UUID: 008124bf-2ad2-4495-9830-5b3088a23a9f
+[20:35:53 ERROR]: Position: world: 'world' at location (1202.028239090717, 66.0, -3231.558060375225)
+[20:35:53 ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[20:35:53 ERROR]: Entity AABB: AABB[1201.7282390787962, 66.0, -3231.858060387146] -> [1202.328239102638, 67.79999995231628, -3231.258060363304]
+[20:35:53 ERROR]: Total packets processed on the main thread for all players: 1169266
+[20:35:53 ERROR]: ------------------------------
+[20:35:53 ERROR]: Current Thread: Server thread
+[20:35:53 ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
+[20:35:53 ERROR]: 	Stack:
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.synth.ImprovedNoise.noise(ImprovedNoise.java:63)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.synth.BlendedNoise.compute(BlendedNoise.java:107)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:251)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:251)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:251)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:247)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:247)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:247)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.compute(DensityFunctions.java:866)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:260)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.fillArray(DensityFunctions.java:300)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.fillArray(DensityFunctions.java:846)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$TransformerWithContext.fillArray(DensityFunctions.java:1124)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$NoiseInterpolator.fillArray(NoiseChunk.java:744)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.fillSlice(NoiseChunk.java:205)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.advanceCellX(NoiseChunk.java:223)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:177)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:124)
+[20:35:53 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:906)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:99)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:92)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:84)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$7002/0x0000000801c99800.get(Unknown Source)
+[20:35:53 ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:496)
+[20:35:53 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:83)
+[20:35:53 ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:166)
+[20:35:53 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:481)
+[20:35:53 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:451)
+[20:35:53 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:380)
+[20:35:53 ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1898)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4217/0x00000008014a0ed8.apply(Unknown Source)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6049/0x0000000801baee20.accept(Unknown Source)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[20:35:53 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[20:35:53 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[20:35:53 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[20:35:53 ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1506)
+[20:35:53 ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[20:35:53 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1032)
+[20:35:53 ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:571)
+[20:35:53 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1872)
+[20:35:53 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[20:35:53 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[20:35:53 ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[20:35:53 ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$5574/0x0000000801b0cf88.run(Unknown Source)
+[20:35:53 ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:35:53 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[20:35:53 ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:35:53 ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358)
+[20:35:53 ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[20:35:53 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[20:35:53 ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335)
+[20:35:53 ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328)
+[20:35:53 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[20:35:53 ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306)
+[20:35:53 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191)
+[20:35:53 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[20:35:53 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4317/0x00000008014e26e0.run(Unknown Source)
+[20:35:53 ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[20:35:53 ERROR]: ------------------------------
+[20:35:53 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:35:53 ERROR]: ------------------------------
+[20:35:54 INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[20:35:58 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-58 (MC: 1.19) ---
+[20:35:58 ERROR]: The server has not responded for 40 seconds! Creating thread dump
+[20:35:58 ERROR]: ------------------------------
+[20:35:58 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:35:58 ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[20:35:58 ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[20:35:58 ERROR]: Entity UUID: 008124bf-2ad2-4495-9830-5b3088a23a9f
+[20:35:58 ERROR]: Position: world: 'world' at location (1202.028239090717, 66.0, -3231.558060375225)
+[20:35:58 ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[20:35:58 ERROR]: Entity AABB: AABB[1201.7282390787962, 66.0, -3231.858060387146] -> [1202.328239102638, 67.79999995231628, -3231.258060363304]
+[20:35:58 ERROR]: Total packets processed on the main thread for all players: 1169266
+[20:35:58 ERROR]: ------------------------------
+[20:35:58 ERROR]: Current Thread: Server thread
+[20:35:58 ERROR]: 	PID: 21 | Suspended: false | Native: true | State: RUNNABLE
+[20:35:58 ERROR]: 	Stack:
+[20:35:58 ERROR]: 		java.base@17.0.3/sun.nio.ch.FileDispatcherImpl.pread0(Native Method)
+[20:35:58 ERROR]: 		java.base@17.0.3/sun.nio.ch.FileDispatcherImpl.pread(FileDispatcherImpl.java:54)
+[20:35:58 ERROR]: 		java.base@17.0.3/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:328)
+[20:35:58 ERROR]: 		java.base@17.0.3/sun.nio.ch.IOUtil.read(IOUtil.java:296)
+[20:35:58 ERROR]: 		java.base@17.0.3/sun.nio.ch.IOUtil.read(IOUtil.java:273)
+[20:35:58 ERROR]: 		java.base@17.0.3/sun.nio.ch.FileChannelImpl.readInternal(FileChannelImpl.java:839)
+[20:35:58 ERROR]: 		java.base@17.0.3/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:824)
+[20:35:58 ERROR]: 		net.minecraft.world.level.chunk.storage.RegionFile.getChunkDataInputStream(RegionFile.java:604)
+[20:35:58 ERROR]: 		net.minecraft.world.level.chunk.storage.RegionFileStorage.scanChunk(RegionFileStorage.java:263)
+[20:35:58 ERROR]: 		net.minecraft.world.level.chunk.storage.ChunkStorage.lambda$chunkScanner$1(ChunkStorage.java:211)
+[20:35:58 ERROR]: 		net.minecraft.world.level.chunk.storage.IChunkLoader$$Lambda$4716/0x0000000801682f40.a(Unknown Source)
+[20:35:58 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.tryLoadFromStorage(StructureCheck.java:100)
+[20:35:58 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:77)
+[20:35:58 ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:166)
+[20:35:58 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:481)
+[20:35:58 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:451)
+[20:35:58 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:380)
+[20:35:58 ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1898)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4217/0x00000008014a0ed8.apply(Unknown Source)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6049/0x0000000801baee20.accept(Unknown Source)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[20:35:58 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[20:35:58 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[20:35:58 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[20:35:58 ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1506)
+[20:35:58 ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[20:35:58 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1032)
+[20:35:58 ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:571)
+[20:35:58 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1872)
+[20:35:58 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[20:35:58 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[20:35:58 ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[20:35:58 ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$5574/0x0000000801b0cf88.run(Unknown Source)
+[20:35:58 ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:35:58 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[20:35:58 ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:35:58 ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358)
+[20:35:58 ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[20:35:58 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[20:35:58 ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335)
+[20:35:58 ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328)
+[20:35:58 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[20:35:58 ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306)
+[20:35:58 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191)
+[20:35:58 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[20:35:58 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4317/0x00000008014e26e0.run(Unknown Source)
+[20:35:58 ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[20:35:58 ERROR]: ------------------------------
+[20:35:58 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:35:58 ERROR]: ------------------------------
+[20:36:03 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-58 (MC: 1.19) ---
+[20:36:03 ERROR]: The server has not responded for 45 seconds! Creating thread dump
+[20:36:03 ERROR]: ------------------------------
+[20:36:03 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:36:03 ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk wait task info below: 
+[20:36:03 ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] 116,-252 in 'world:
+[20:36:03 ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Load Task - none
+[20:36:03 ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Save Task - none
+[20:36:03 ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder - non-null
+[20:36:03 ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Status - minecraft:empty
+[20:36:03 ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Ticket Status - minecraft:structure_starts
+[20:36:03 ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Status - null
+[20:36:03 ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Priority - 2
+[20:36:03 ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[20:36:03 ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[20:36:03 ERROR]: Entity UUID: 008124bf-2ad2-4495-9830-5b3088a23a9f
+[20:36:03 ERROR]: Position: world: 'world' at location (1202.028239090717, 66.0, -3231.558060375225)
+[20:36:03 ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[20:36:03 ERROR]: Entity AABB: AABB[1201.7282390787962, 66.0, -3231.858060387146] -> [1202.328239102638, 67.79999995231628, -3231.258060363304]
+[20:36:03 ERROR]: Total packets processed on the main thread for all players: 1169266
+[20:36:03 ERROR]: ------------------------------
+[20:36:03 ERROR]: Current Thread: Server thread
+[20:36:03 ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
+[20:36:03 ERROR]: 	Stack:
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.hashCode(DensityFunctions.java:739)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.hashCode(DensityFunctions.java:603)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.hashCode(DensityFunctions.java:739)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.hashCode(DensityFunctions.java:739)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.core.Holder$Direct.hashCode(Holder.java:48)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.hashCode(DensityFunctions.java:1062)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.hashCode(CubicSpline.java:165)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.ImmutableCollections$AbstractImmutableList.hashCode(ImmutableCollections.java:322)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.hashCode(CubicSpline.java:165)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.ImmutableCollections$AbstractImmutableList.hashCode(ImmutableCollections.java:322)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.hashCode(CubicSpline.java:165)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.hashCode(DensityFunctions.java:1025)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.hashCode(DensityFunctions.java:739)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.Objects.hashCode(Objects.java:103)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e03400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04400.invoke(LambdaForm$MH)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.invoke.LambdaForm$MH/0x0000000800e04800.linkToTargetMethod(LambdaForm$MH)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.hashCode(DensityFunctions.java:244)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.HashMap.hash(HashMap.java:338)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.util.HashMap.computeIfAbsent(HashMap.java:1191)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.wrap(NoiseChunk.java:335)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$$Lambda$6378/0x0000000801c1f830.apply(Unknown Source)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:647)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:603)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:886)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:386)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:647)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:603)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:132)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:174)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:124)
+[20:36:03 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:906)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:99)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:92)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:84)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$7002/0x0000000801c99800.get(Unknown Source)
+[20:36:03 ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:496)
+[20:36:03 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:83)
+[20:36:03 ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:166)
+[20:36:03 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:481)
+[20:36:03 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:451)
+[20:36:03 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:380)
+[20:36:03 ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1898)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4217/0x00000008014a0ed8.apply(Unknown Source)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6049/0x0000000801baee20.accept(Unknown Source)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[20:36:03 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[20:36:03 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[20:36:03 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[20:36:03 ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1506)
+[20:36:03 ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[20:36:03 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1032)
+[20:36:03 ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:571)
+[20:36:03 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1872)
+[20:36:03 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[20:36:03 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[20:36:03 ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[20:36:03 ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$5574/0x0000000801b0cf88.run(Unknown Source)
+[20:36:03 ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:36:03 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[20:36:03 ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:36:03 ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358)
+[20:36:03 ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[20:36:03 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[20:36:03 ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335)
+[20:36:03 ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328)
+[20:36:03 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[20:36:03 ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306)
+[20:36:03 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191)
+[20:36:03 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[20:36:03 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4317/0x00000008014e26e0.run(Unknown Source)
+[20:36:03 ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[20:36:03 ERROR]: ------------------------------
+[20:36:03 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:36:03 ERROR]: ------------------------------
+[20:36:05 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[20:36:08 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-58 (MC: 1.19) ---
+[20:36:08 ERROR]: The server has not responded for 50 seconds! Creating thread dump
+[20:36:08 ERROR]: ------------------------------
+[20:36:08 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:36:08 ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[20:36:08 ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[20:36:08 ERROR]: Entity UUID: 008124bf-2ad2-4495-9830-5b3088a23a9f
+[20:36:08 ERROR]: Position: world: 'world' at location (1202.028239090717, 66.0, -3231.558060375225)
+[20:36:08 ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[20:36:08 ERROR]: Entity AABB: AABB[1201.7282390787962, 66.0, -3231.858060387146] -> [1202.328239102638, 67.79999995231628, -3231.258060363304]
+[20:36:08 ERROR]: Total packets processed on the main thread for all players: 1169266
+[20:36:08 ERROR]: ------------------------------
+[20:36:08 ERROR]: Current Thread: Server thread
+[20:36:08 ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
+[20:36:08 ERROR]: 	Stack:
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+[20:36:08 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[20:36:08 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[20:36:08 ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$4671/0x000000080166c228.apply(Unknown Source)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+[20:36:08 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[20:36:08 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[20:36:08 ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$4671/0x000000080166c228.apply(Unknown Source)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+[20:36:08 ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1052)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:647)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:603)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:886)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:386)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:774)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:647)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:603)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:308)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:735)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:132)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:174)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:124)
+[20:36:08 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:906)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:99)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:92)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:84)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$7002/0x0000000801c99800.get(Unknown Source)
+[20:36:08 ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:496)
+[20:36:08 ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:83)
+[20:36:08 ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:166)
+[20:36:08 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:481)
+[20:36:08 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:451)
+[20:36:08 ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:380)
+[20:36:08 ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1898)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4217/0x00000008014a0ed8.apply(Unknown Source)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$6049/0x0000000801baee20.accept(Unknown Source)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[20:36:08 ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[20:36:08 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[20:36:08 ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[20:36:08 ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1506)
+[20:36:08 ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[20:36:08 ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1032)
+[20:36:08 ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:571)
+[20:36:08 ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1872)
+[20:36:08 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[20:36:08 ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[20:36:08 ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[20:36:08 ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$5574/0x0000000801b0cf88.run(Unknown Source)
+[20:36:08 ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:36:08 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[20:36:08 ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:36:08 ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358)
+[20:36:08 ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[20:36:08 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[20:36:08 ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335)
+[20:36:08 ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328)
+[20:36:08 ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[20:36:08 ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306)
+[20:36:08 ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191)
+[20:36:08 ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[20:36:08 ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4317/0x00000008014e26e0.run(Unknown Source)
+[20:36:08 ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[20:36:08 ERROR]: ------------------------------
+[20:36:08 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:36:08 ERROR]: ------------------------------
+[20:36:10 WARN]: Can't keep up! Is the server overloaded? Running 51400ms or 1028 ticks behind
+[20:36:10 INFO]: LegenderyBeast lost connection: Disconnected
+[20:36:10 INFO]: LegenderyBeast left the game
+[20:36:10 INFO]: talx123 lost connection: Disconnected
+[20:36:10 INFO]: talx123 left the game
+[20:36:10 INFO]: com.mojang.authlib.GameProfile@73d7e145[id=6117f24b-2757-46ab-b4cf-5addf9dde8f3,name=LegenderyBeast,properties={textures=[com.mojang.authlib.properties.Property@3dcdb61e]},legacy=false] (/87.70.176.135:57521) lost connection: Disconnected
+[20:36:10 INFO]: LegenderyBeast issued server command: /save-all
+[20:36:18 INFO]: [LegenderyBeast: Saved the game]
+[20:36:19 INFO]: talx123 joined the game
+[20:36:19 INFO]: talx123[/77.137.78.38:17929] logged in with entity id 157703 at ([world]1202.028239090717, 66.0, -3231.558060375225)
+[20:36:19 INFO]: LegenderyBeast joined the game
+[20:36:19 INFO]: LegenderyBeast[/87.70.176.135:57527] logged in with entity id 157704 at ([world]93.01878581944447, 28.0, -2644.199759512615)
+[20:40:47 INFO]: LegenderyBeast issued server command: /save-all
+[20:40:49 INFO]: [LegenderyBeast: Saved the game]
+[20:40:50 WARN]: LegenderyBeast moved too quickly! 7.149156429692084,2.1661092609382138,10.480630338633091
+[20:40:54 WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[20:54:53 INFO]: talx123 has made the advancement [Hot Stuff]
+[20:56:25 INFO]: talx123 issued server command: /tp LegenderyBeast
+[20:56:25 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[21:03:33 INFO]: talx123 issued server command: /tp LegenderyBeast
+[21:03:33 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[21:05:13 INFO]: talx123 lost connection: Disconnected
+[21:05:13 INFO]: talx123 left the game
+[21:10:01 INFO]: LegenderyBeast issued server command: /gamemode spectator
+[21:10:01 INFO]: [LegenderyBeast: Set own game mode to Spectator Mode]
+[21:10:39 INFO]: LegenderyBeast issued server command: /gamemode survival
+[21:10:39 INFO]: [LegenderyBeast: Set own game mode to Survival Mode]
+[21:11:09 INFO]: LegenderyBeast issued server command: /gamemode spectator
+[21:11:09 INFO]: [LegenderyBeast: Set own game mode to Spectator Mode]
+[21:11:13 INFO]: LegenderyBeast issued server command: /gamemode survival
+[21:11:13 INFO]: [LegenderyBeast: Set own game mode to Survival Mode]
+[21:29:41 INFO]: LegenderyBeast lost connection: Disconnected
+[21:29:42 INFO]: LegenderyBeast left the game
+[11:35:01 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[11:35:01 INFO]: LegenderyBeast joined the game
+[11:35:01 INFO]: LegenderyBeast[/87.70.176.135:64125] logged in with entity id 172694 at ([world]188.04629870294946, 63.0, -2408.844748701142)
+[11:36:10 INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[11:36:10 INFO]: talx123 joined the game
+[11:36:10 INFO]: talx123[/77.137.78.38:17954] logged in with entity id 173825 at ([world]95.31602992209861, 17.0, -2649.870113936249)
+[12:09:39 INFO]: talx123 lost connection: Disconnected
+[12:09:39 INFO]: talx123 left the game
+[12:55:51 INFO]: LegenderyBeast issued server command: /save-all
+[12:55:51 INFO]: [LegenderyBeast: Saved the game]
+[13:01:41 INFO]: LegenderyBeast issued server command: /save-all
+[13:01:43 INFO]: [LegenderyBeast: Saved the game]
+[13:01:45 INFO]: LegenderyBeast lost connection: Disconnected
+[13:01:45 INFO]: LegenderyBeast left the game
+[18:54:51 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[18:54:51 INFO]: GH0STBLACK joined the game
+[18:54:51 INFO]: GH0STBLACK[/82.80.179.160:53434] logged in with entity id 196179 at ([world]513.6999999880791, -41.0, -4633.699999988079)
+[18:55:02 INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[18:55:02 INFO]: talx123 joined the game
+[18:55:02 INFO]: talx123[/77.137.78.38:17979] logged in with entity id 196617 at ([world]-148.77813132362343, 64.0, -2565.699999988079)
+[19:13:15 INFO]: GH0STBLACK issued server command: /tp GH0STBLACK talx123
+[19:13:15 INFO]: [GH0STBLACK: Teleported GH0STBLACK to talx123]
+[19:24:50 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[19:24:51 INFO]: LegenderyBeast joined the game
+[19:24:51 INFO]: LegenderyBeast[/87.70.176.135:64044] logged in with entity id 215354 at ([world]159.30000001192093, 63.5625, -2419.300000011921)
+[19:25:21 WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
+[19:25:57 WARN]: Can't keep up! Is the server overloaded? Running 6003ms or 120 ticks behind
+[19:26:35 WARN]: Can't keep up! Is the server overloaded? Running 8063ms or 161 ticks behind
+[19:27:12 WARN]: Can't keep up! Is the server overloaded? Running 6226ms or 124 ticks behind
+[19:28:15 WARN]: Can't keep up! Is the server overloaded? Running 5216ms or 104 ticks behind
+[19:30:26 WARN]: Can't keep up! Is the server overloaded? Running 5034ms or 100 ticks behind
+[19:31:04 WARN]: Can't keep up! Is the server overloaded? Running 7845ms or 156 ticks behind
+[19:31:40 WARN]: Can't keep up! Is the server overloaded? Running 6220ms or 124 ticks behind
+[19:32:22 WARN]: Can't keep up! Is the server overloaded? Running 11525ms or 230 ticks behind
+[19:33:02 WARN]: Can't keep up! Is the server overloaded? Running 10547ms or 210 ticks behind
+[19:33:40 WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[19:33:54 INFO]: talx123 issued server command: /tp LegenderyBeast
+[19:33:54 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[19:45:38 INFO]: <LegenderyBeast> im sleeping k?
+[19:45:42 INFO]: <GH0STBLACK> k
+[19:45:46 INFO]: <talx123> tortle
+[19:48:58 WARN]: Can't keep up! Is the server overloaded? Running 5083ms or 101 ticks behind
+[19:49:26 INFO]: <talx123> tortel
+[19:49:35 WARN]: Can't keep up! Is the server overloaded? Running 7294ms or 145 ticks behind
+[19:51:33 INFO]: <LegenderyBeast> this farm is so bad
+[19:51:42 INFO]: <GH0STBLACK> go ahead
+[19:52:07 INFO]: GH0STBLACK has made the advancement [Enchanter]
+[19:52:40 INFO]: <GH0STBLACK> habani!!!!
+[19:52:46 INFO]: <LegenderyBeast> what
+[19:52:58 INFO]: <GH0STBLACK> i got silk touch with efficiency 4 and unbraking 3!!!
+[19:53:02 INFO]: <LegenderyBeast> ya manyak
+[19:53:06 INFO]: <GH0STBLACK> HAHAHAHA
+[19:53:07 INFO]: <LegenderyBeast> silk touch is good
+[19:53:13 INFO]: <LegenderyBeast> help shwartz
+[19:53:15 INFO]: <GH0STBLACK> now i need fortune
+[19:53:21 INFO]: <GH0STBLACK> he said he didnt want it
+[19:53:24 INFO]: <GH0STBLACK> wait
+[19:53:31 INFO]: <LegenderyBeast> you already have a fortune you're fucking loaded with money
+[19:53:39 INFO]: <GH0STBLACK> arnet you suppose to be doing homework or somethjing??
+[19:53:47 INFO]: <GH0STBLACK> sharmoot
+[19:54:03 INFO]: <LegenderyBeast> he's screen sharing his java code on my second monitor
+[19:54:23 INFO]: <GH0STBLACK> and you are "paying attention"?
+[19:54:29 INFO]: <LegenderyBeast> half a clutch
+[19:54:47 INFO]: <GH0STBLACK> your'e such and ass hehe
+[19:57:15 WARN]: Boat (vehicle of talx123) moved wrongly! 0.2964538438473028
+[19:57:15 WARN]: Boat (vehicle of talx123) moved wrongly! 0.3834006753072572
+[20:11:33 INFO]: LegenderyBeast issued server command: /tp talx123
+[20:11:33 INFO]: [LegenderyBeast: Teleported LegenderyBeast to talx123]
+[20:21:59 INFO]: GH0STBLACK has made the advancement [The Parrots and the Bats]
+[20:25:41 WARN]: Boat (vehicle of talx123) moved wrongly! 0.3042372830019815
+[20:30:48 INFO]: talx123 has made the advancement [The Parrots and the Bats]
+[20:44:09 INFO]: talx123 issued server command: /tp LegenderyBeast
+[20:44:09 INFO]: [talx123: Teleported talx123 to LegenderyBeast]
+[20:44:09 INFO]: GH0STBLACK issued server command: /tp GH0STBLACK LegenderyBeast
+[20:44:09 INFO]: [GH0STBLACK: Teleported GH0STBLACK to LegenderyBeast]
+[20:44:51 INFO]: LegenderyBeast issued server command: /tp GH0STBLACK
+[20:44:51 INFO]: [LegenderyBeast: Teleported LegenderyBeast to GH0STBLACK]
+[20:47:42 INFO]: <LegenderyBeast> theres a slime here
+[20:47:47 INFO]: <LegenderyBeast> do u have looting
+[20:48:49 INFO]: <LegenderyBeast> spawner
+[20:48:58 INFO]: <talx123> of?
+[20:50:19 INFO]: <LegenderyBeast> deep dark mineshaft part
+[20:50:23 INFO]: <talx123> where
+[20:50:24 INFO]: <LegenderyBeast> s-emek
+[20:50:31 INFO]: <LegenderyBeast> osovsky is here too
+[20:50:45 INFO]: <LegenderyBeast> fuck
+[20:50:47 INFO]: <LegenderyBeast> wait
+[20:50:51 INFO]: <LegenderyBeast> theres a sensor
+[20:50:53 INFO]: <LegenderyBeast> idk
+[20:50:55 INFO]: <LegenderyBeast> wait a sec
+[20:50:57 INFO]: <talx123> Habani
+[20:50:59 INFO]: <talx123> come here
+[20:53:41 INFO]: <LegenderyBeast> i got 25 diamonds btw
+[20:53:43 INFO]: <LegenderyBeast> good stuff
+[20:53:51 INFO]: <talx123> where is the goddamn exit
+[20:54:03 INFO]: <GH0STBLACK> fucking hacker
+[20:54:30 INFO]: <LegenderyBeast> are u back at the cave?
+[20:54:32 INFO]: <LegenderyBeast> can i tp
+[20:54:40 INFO]: <talx123> no
+[20:54:40 INFO]: <GH0STBLACK> not me
+[20:57:03 INFO]: <talx123> did you find the cave
+[20:57:07 INFO]: <LegenderyBeast> nope
+[20:57:16 INFO]: <LegenderyBeast> im afking for a bit
+[20:57:17 INFO]: <talx123> i hate my life
+[20:57:46 INFO]: <GH0STBLACK> come to me
+[20:57:53 INFO]: talx123 issued server command: /tp GH0STBLACK
+[20:57:53 INFO]: [talx123: Teleported talx123 to GH0STBLACK]
+[20:58:14 INFO]: <GH0STBLACK> habani
+[21:00:36 INFO]: LegenderyBeast issued server command: /tp GH0STBLACK
+[21:00:36 INFO]: [LegenderyBeast: Teleported LegenderyBeast to GH0STBLACK]
+[21:04:05 INFO]: <LegenderyBeast> i found a part as well
+[21:08:02 INFO]: talx123 issued server command: /tp GH0STBLACK
+[21:08:02 INFO]: [talx123: Teleported talx123 to GH0STBLACK]
+[21:13:11 INFO]: GH0STBLACK has made the advancement [Sneak 100]
+[21:17:36 INFO]: LegenderyBeast issued server command: /tp talx123
+[21:17:36 INFO]: [LegenderyBeast: Teleported LegenderyBeast to talx123]
+[21:26:06 INFO]: LegenderyBeast issued server command: /tp GH0STBLACK
+[21:26:06 INFO]: [LegenderyBeast: Teleported LegenderyBeast to GH0STBLACK]
+[21:26:31 INFO]: LegenderyBeast issued server command: /tp talx123
+[21:26:31 INFO]: [LegenderyBeast: Teleported LegenderyBeast to talx123]
+[21:26:51 INFO]: GH0STBLACK issued server command: /tp GH0STBLACK talx123
+[21:26:51 INFO]: [GH0STBLACK: Teleported GH0STBLACK to talx123]
+[21:29:37 INFO]: GH0STBLACK has made the advancement [A Terrible Fortress]
+[21:31:34 INFO]: GH0STBLACK fell from a high place
+[21:31:45 INFO]: GH0STBLACK issued server command: /tp GH0STBLACK LegenderyBeast
+[21:31:45 INFO]: [GH0STBLACK: Teleported GH0STBLACK to LegenderyBeast]
+[21:34:33 INFO]: GH0STBLACK issued server command: /tp GH0STBLACK LegenderyBeast
+[21:34:33 INFO]: [GH0STBLACK: Teleported GH0STBLACK to LegenderyBeast]
+[21:35:11 INFO]: LegenderyBeast issued server command: /tp GH0STBLACK
+[21:35:11 INFO]: [LegenderyBeast: Teleported LegenderyBeast to GH0STBLACK]
+[21:35:26 INFO]: LegenderyBeast issued server command: /tp GH0STBLACK
+[21:35:26 INFO]: [LegenderyBeast: Teleported LegenderyBeast to GH0STBLACK]
+[21:44:42 INFO]: LegenderyBeast issued server command: /tp @a LegenderyBeast
+[21:44:42 INFO]: [LegenderyBeast: Teleported 3 entities to LegenderyBeast]
+[21:47:54 INFO]: talx123 lost connection: Disconnected
+[21:47:54 INFO]: talx123 left the game
+[21:48:00 INFO]: LegenderyBeast issued server command: /save-all
+[21:48:01 INFO]: [LegenderyBeast: Saved the game]
+[21:48:03 INFO]: LegenderyBeast lost connection: Disconnected
+[21:48:03 INFO]: LegenderyBeast left the game
+[21:48:44 INFO]: GH0STBLACK lost connection: Disconnected
+[21:48:44 INFO]: GH0STBLACK left the game
+[10:27:41 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[10:27:41 INFO]: GH0STBLACK joined the game
+[10:27:41 INFO]: GH0STBLACK[/82.80.179.160:58963] logged in with entity id 282244 at ([world]340.45384455317935, 63.0, -2800.240644126431)
+[10:48:53 INFO]: GH0STBLACK lost connection: Disconnected
+[10:48:53 INFO]: GH0STBLACK left the game
+[10:54:14 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[10:54:15 INFO]: GH0STBLACK joined the game
+[10:54:15 INFO]: GH0STBLACK[/82.80.179.160:50937] logged in with entity id 285526 at ([world]509.56843379783226, 7.0, -2702.908762480087)
+[10:55:57 INFO]: GH0STBLACK was shot by Skeleton
+[10:56:19 INFO]: GH0STBLACK issued server command: /tp
+[10:56:28 INFO]: GH0STBLACK issued server command: /tp
+[10:56:58 INFO]: GH0STBLACK issued server command: /tp GH0STBLACK 462 18 -2716
+[10:56:58 INFO]: [GH0STBLACK: Teleported GH0STBLACK to 462.500000, 18.000000, -2715.500000]
+[11:00:43 INFO]: GH0STBLACK lost connection: Disconnected
+[11:00:43 INFO]: GH0STBLACK left the game
+[14:15:34 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[14:15:34 INFO]: GH0STBLACK joined the game
+[14:15:34 INFO]: GH0STBLACK[/82.80.179.160:61610] logged in with entity id 288207 at ([world]464.65198959278126, 19.0, -2694.3639733058817)
+[14:20:35 INFO]: GH0STBLACK lost connection: Disconnected
+[14:20:35 INFO]: GH0STBLACK left the game
+[14:33:34 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[14:33:34 INFO]: GH0STBLACK joined the game
+[14:33:34 INFO]: GH0STBLACK[/82.80.179.160:61716] logged in with entity id 289619 at ([world]483.2952718921926, 15.0, -2701.7821090104353)
+[14:34:56 INFO]: GH0STBLACK lost connection: Disconnected
+[14:34:56 INFO]: GH0STBLACK left the game
+[14:38:17 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[14:38:18 INFO]: GH0STBLACK joined the game
+[14:38:18 INFO]: GH0STBLACK[/82.80.179.160:61758] logged in with entity id 290378 at ([world]554.3046917150104, -25.0, -2784.343114059516)
+[14:40:34 INFO]: GH0STBLACK lost connection: Disconnected
+[14:40:34 INFO]: GH0STBLACK left the game
+[14:49:04 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[14:49:05 INFO]: GH0STBLACK joined the game
+[14:49:05 INFO]: GH0STBLACK[/82.80.179.160:61822] logged in with entity id 291201 at ([world]653.0391938496764, -40.0, -2798.300000011921)
+[14:51:22 INFO]: GH0STBLACK lost connection: Disconnected
+[14:51:22 INFO]: GH0STBLACK left the game
+[14:53:24 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[14:53:24 INFO]: GH0STBLACK joined the game
+[14:53:24 INFO]: GH0STBLACK[/82.80.179.160:61859] logged in with entity id 291839 at ([world]636.7195693554337, -45.0, -2777.5990558432813)
+[15:22:23 INFO]: GH0STBLACK lost connection: Disconnected
+[15:22:23 INFO]: GH0STBLACK left the game
+[15:26:20 INFO]: com.mojang.authlib.GameProfile@4ca9d075[id=<null>,name=GH0STBLACK,properties={},legacy=false] (/82.80.179.160:56091) lost connection: Disconnected
+[15:26:23 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[15:26:23 INFO]: GH0STBLACK joined the game
+[15:26:23 INFO]: GH0STBLACK[/82.80.179.160:56099] logged in with entity id 296738 at ([world]341.4717609897618, 63.0, -2800.707435746731)
+[15:57:36 INFO]: GH0STBLACK lost connection: Disconnected
+[15:57:36 INFO]: GH0STBLACK left the game
+[02:43:06 INFO]: Thread RCON Client /139.28.216.50 started
+[02:43:07 INFO]: Thread RCON Client /139.28.216.50 shutting down
+[03:17:46 INFO]: Thread RCON Client /73.153.250.233 started
+[03:17:53 INFO]: Thread RCON Client /73.153.250.233 shutting down
+[03:18:06 INFO]: Thread RCON Client /73.153.250.233 started
+[03:18:24 INFO]: Thread RCON Client /73.153.250.233 shutting down
+[22:41:45 INFO]: UUID of player DeReach is 28cf60ff-b4c7-416c-80b0-37c3f2e6993c
+[22:41:46 INFO]: DeReach joined the game
+[22:41:46 INFO]: DeReach[/93.172.108.44:55914] logged in with entity id 302842 at ([world]390.2594652805716, 71.0, -2944.2719327792083)
+[22:47:22 INFO]: DeReach has made the advancement [Acquire Hardware]
+[22:49:51 INFO]: DeReach lost connection: Disconnected
+[22:49:51 INFO]: DeReach left the game
+[16:28:59 INFO]: UUID of player GH0STBLACK is 6c707d5f-30d6-4292-ad3c-e139c8751faf
+[16:29:00 INFO]: GH0STBLACK joined the game
+[16:29:00 INFO]: GH0STBLACK[/82.80.179.160:49976] logged in with entity id 305323 at ([world]341.0380310264468, 63.0, -2800.151905552702)
+[16:30:53 INFO]: GH0STBLACK has made the advancement [Cover Me with Diamonds]
+[16:33:32 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[16:33:32 INFO]: LegenderyBeast joined the game
+[16:33:32 INFO]: LegenderyBeast[/87.70.80.52:52608] logged in with entity id 306885 at ([world]188.5539419522258, 63.0, -2409.4585413273376)
+[16:47:20 INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[16:47:20 INFO]: talx123 joined the game
+[16:47:20 INFO]: talx123[/77.137.78.38:17983] logged in with entity id 311932 at ([world]155.13825230533894, 63.0, -2437.2174409790578)
+[16:51:12 INFO]: talx123 issued server command: /tp GH0STBLACK
+[16:51:12 INFO]: [talx123: Teleported talx123 to GH0STBLACK]
+[16:54:36 INFO]: Villager EntityVillager['Librarian'/315561, uuid='9c54e89a-9152-4c87-9536-a2ac3f43b479', l='ServerLevel[world_nether]', x=4.49, y=64.00, z=-383.58, cpos=[0, -24], tl=984022, v=true] died, message: 'Librarian discovered the floor was lava'
+[17:02:10 INFO]: GH0STBLACK has made the advancement [Sweet Dreams]
+[17:14:52 INFO]: talx123 was impaled by Drowned
+[17:37:16 INFO]: LegenderyBeast lost connection: Disconnected
+[17:37:16 INFO]: LegenderyBeast left the game
+[17:53:52 INFO]: GH0STBLACK lost connection: Disconnected
+[17:53:52 INFO]: GH0STBLACK left the game
+[18:01:00 INFO]: talx123 lost connection: Disconnected
+[18:01:00 INFO]: talx123 left the game
+[19:56:17 INFO]: UUID of player talx123 is 008124bf-2ad2-4495-9830-5b3088a23a9f
+[19:56:18 INFO]: talx123 joined the game
+[19:56:18 INFO]: talx123[/77.137.78.38:17972] logged in with entity id 357873 at ([world]-168.03045144962164, 67.0, -2967.2521112404934)
+[20:01:22 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[20:01:23 INFO]: LegenderyBeast joined the game
+[20:01:23 INFO]: LegenderyBeast[/87.70.80.52:56764] logged in with entity id 359709 at ([world]-1065.699999988079, 69.0, -2188.6243032135308)
+[20:01:58 INFO]: <LegenderyBeast> hi
+[20:02:05 INFO]: <talx123> hello
+[20:02:07 WARN]: LegenderyBeast was kicked due to keepalive timeout!
+[20:02:08 INFO]: LegenderyBeast lost connection: Timed out
+[20:02:08 INFO]: LegenderyBeast left the game
+[20:02:22 INFO]: com.mojang.authlib.GameProfile@d844c51[id=<null>,name=LegenderyBeast,properties={},legacy=false] (/87.70.80.52:56776) lost connection: Disconnected
+[20:02:29 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[20:02:29 INFO]: LegenderyBeast joined the game
+[20:02:29 INFO]: LegenderyBeast[/87.70.80.52:56780] logged in with entity id 360768 at ([world]-1068.7233142677292, 65.0, -2191.6208760431214)
+[20:03:14 WARN]: LegenderyBeast was kicked due to keepalive timeout!
+[20:03:14 INFO]: LegenderyBeast lost connection: Timed out
+[20:03:14 INFO]: LegenderyBeast left the game
+[20:03:58 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[20:03:58 INFO]: LegenderyBeast joined the game
+[20:03:58 INFO]: LegenderyBeast[/87.70.80.52:56807] logged in with entity id 361756 at ([world]-1069.924909050617, 63.0, -2194.3360897803886)
+[20:04:43 WARN]: LegenderyBeast was kicked due to keepalive timeout!
+[20:04:43 INFO]: LegenderyBeast lost connection: Timed out
+[20:04:43 INFO]: LegenderyBeast left the game
+[20:07:24 INFO]: talx123 lost connection: Disconnected
+[20:07:24 INFO]: talx123 left the game
+[20:08:12 INFO]: UUID of player LegenderyBeast is 6117f24b-2757-46ab-b4cf-5addf9dde8f3
+[20:08:13 INFO]: LegenderyBeast joined the game
+[20:08:13 INFO]: LegenderyBeast[/87.70.80.52:60956] logged in with entity id 363116 at ([world]-1068.3505722047923, 63.0, -2193.1575360797556)
+[20:08:17 INFO]: <LegenderyBeast> hi
+[20:08:20 INFO]: LegenderyBeast issued server command: /stop
+[20:08:20 INFO]: [LegenderyBeast: Stopping the server]
+[20:08:20 INFO]: Stopping server
+[20:08:20 INFO]: Saving players
+[20:08:20 INFO]: LegenderyBeast lost connection: Server closed
+[20:08:20 INFO]: LegenderyBeast left the game
+[20:08:21 INFO]: Saving worlds
+[20:08:25 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:08:29 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:08:29 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:08:29 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:08:29 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:08:29 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:08:29 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:08:30 INFO]: Flushing Chunk IO
+[20:08:30 INFO]: Closing Thread Pool
+[20:08:30 INFO]: Closing Server
